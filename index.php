@@ -10,16 +10,19 @@ function __autoload($class)
 
 // Enrutamiento. Selecciona el controlador y la accion a ejecutar
 $map = array(
+
+	// Páginas
 	'inicio' => array(
         'controller' => 'ControladorPaginas',
         'action' => 'inicio',
         'privada' => false
     ),
     
-    // P�ginas de error
+    // Páginas de error
     'page404' => array(
         'controller' => 'ControladorPaginas',
         'action' => 'page404',
+        'privada' => false
      )
 );
 

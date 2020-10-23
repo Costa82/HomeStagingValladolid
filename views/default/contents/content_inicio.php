@@ -1,7 +1,7 @@
-<!-- Contenido de la p�gina de Inicio -->
+<!-- Contenido de la página de Inicio -->
 <h1>HOME STAGING VALLADOLID</h1>
 
-<!--//BLOQUE COOKIES-->
+<!--BLOQUE COOKIES-->
 <div id='overbox3'>
 	<div id='infobox3'>
 		<p>
@@ -14,4 +14,4 @@
 		</p>
 	</div>
 </div>
-<!--//FIN BLOQUE COOKIES-->
+<!--FIN BLOQUE COOKIES-->

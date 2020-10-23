@@ -9,10 +9,10 @@
 		ponerse en contacto con nosotros por estos medios:</p>
 
 	</br> </br>
-	<p>Teléfono de contacto: 680219794</p>
+	<p>Teléfono de contacto: </p>
 	<p>
-		Correo electrónico: <a href='mailto:info@merendalia.es'
-			title='Contactar'><i>info@merendalia.es</i> </a>
+		Correo electrónico: <a href='mailto:'
+			title='Contactar'><i></i> </a>
 	</p>
 
 </div>
