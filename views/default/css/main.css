@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-UltraLight;
+	src: url(../fonts/Montserrat-UltraLight.otf);
+}
+
+h1,h2,h3,h4,p,ul,body {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4 {
+	font-family: Montserrat-Bold;
+}
+
+ul {
+	list-style: none;
+}
+
+a,a:hover,a:focus {
+	text-decoration: none;
+}
+
+/* BASE
+   ========================================================================= */
+html {
+	width: 100%;
+	overflow-x: hidden;
+	font-size: 20px;
+	position: relative;
+	font-family: Montserrat-UltraLight;
+}
+
+body {
+	margin-top: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+h4 {
+	margin: 5px 0;
+}
+
+p,span {
+	font-size: 15px;
+}
+
+/* HEADER
+   ========================================================================= */
+
+/* CABECERA CON MENU DE NAVEGACION */
+header {
+	display: block;
+}
+
+/* Hacemos flexible la lista del nav. */
+nav>ul {
+	display: flex;
+	justify-content: space-around;
+	font-family: Montserrat-Bold;
+	position: fixed;
+	background-color: white;
+	margin-top: -20px;
+	padding-top: 10px;
+}
+
+nav>#lista_principal_index {
+	width: 100%;
+	z-index: 99;
+	font-size: 11px;
+}
+
+nav>ul>li {
+	padding: 1.5px;
+	padding-top: 2px;
+}
+
+nav>ul>li>a {
+	color: black;
+}
+
+nav>ul>li>a:hover,nav>ul>li>a:hover>.fa {
+	color: #9bd155;
+}
+
+/* FOOTER
+========================================================================= */
+
+/*RESPONSIVE
+========================================================================= */
+
+/* Para resoluciones a partir de 500px */
+@media only screen and (min-width: 500px) {
+
+}
+
+/* Para resoluciones a partir de 600px */
+@media only screen and (min-width: 600px) {
+	
+}
+
+/* Para resoluciones a partir de 800px */
+@media only screen and (min-width: 800px) {
+	
+}
+
+/* Para resoluciones a partir de 1000px */
+@media only screen and (min-width: 1000px) {
+	
+}
+
+/* Para resoluciones a partir de 1250px */
+@media only screen and (min-width: 1250px) {
+	
+}
+
+/* Para resoluciones a partir de 1400px */
+@media only screen and (min-width: 1400px) {
+	
+}
+
+/* Para resoluciones a partir de 1600px */
+@media only screen and (min-width: 1600px) {
+	
+}
