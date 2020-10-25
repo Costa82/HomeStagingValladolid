@@ -4,14 +4,14 @@
 -->
 
 <!DOCTYPE html>
+
 <html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="Content-Language" content="es"/>
+<meta http-equiv="Content-Language" content="es" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description"
-	content="" />
+<meta name="description" content="" />
 <meta name="robots" content="NOODP">
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Home Staging Valladolid" />
@@ -21,11 +21,14 @@
 <meta property="og:image:height" content="494" />
 <meta property="og:url" content="" />
 <title>Home Staging Valladolid</title>
-<link type="text/css" rel="stylesheet" href="./views/default/css/font-awesome.css" />
+<link type="text/css" rel="stylesheet"
+	href="./views/default/css/font-awesome.css" />
 
 <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One'
 	rel='stylesheet' type='text/css' />
 <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap"
 	rel="stylesheet">
 <!--  <link href="apple-touch-icon.png" rel="apple-touch-icon" /> -->
 <!--  <link href="apple-touch-icon-152x152.png" rel="apple-touch-icon"
@@ -53,10 +56,24 @@
 </script>
 
 </head>
+
 <body>
 
+	<header>
+
+		<nav>
+		<!-- Menu navegación -->
+		<?php include_once("template_menuNavIndex.php");?>
+		</nav>
+
+	</header>
+
 	<!-- Contenido -->
-    <?php echo $contenido; ?>
+	<?php echo $contenido; ?>
+
+	<footer>
+	<?php include_once("template_footer.php");?>
+	</footer>
 
 </body>
 </html>

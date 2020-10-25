@@ -17,6 +17,31 @@ $map = array(
         'action' => 'inicio',
         'privada' => false
     ),
+    'galeria' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'galeria',
+        'privada' => false
+    ),
+    'contacto' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'contacto',
+        'privada' => false
+    ),
+    'aviso_legal' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'aviso_legal',
+        'privada' => false
+    ),
+    'politica_privacidad_y_proteccion_datos' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'politica_privacidad_y_proteccion_datos',
+        'privada' => false
+    ),
+    'cookies' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'cookies',
+        'privada' => false
+    ),
     
     // Páginas de error
     'page404' => array(
