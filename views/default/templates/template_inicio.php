@@ -21,8 +21,9 @@
 <meta property="og:image:height" content="494" />
 <meta property="og:url" content="" />
 <title>Home Staging Valladolid</title>
-<link type="text/css" rel="stylesheet"
-	href="./views/default/css/font-awesome.css" />
+
+<!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+<link rel="stylesheet" href="./views/default/css/all.css">
 
 <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One'
 	rel='stylesheet' type='text/css' />

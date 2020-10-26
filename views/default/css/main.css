@@ -12,6 +12,7 @@ h1,h2,h3,h4,p,ul,body {
 
 h1,h2,h3,h4 {
 	font-family: 'Catamaran', sans-serif;
+	color: #7abfc4;
 }
 
 ul {
@@ -20,6 +21,14 @@ ul {
 
 a,a:hover,a:focus {
 	text-decoration: none;
+}
+
+input:focus, input.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 /* BASE
@@ -100,7 +109,7 @@ nav>#lista_principal_index {
 }
 
 #fotos2 a:hover,#contacto2 a:hover,#servicios2 a:hover,#homestaging2 a:hover {
-	color: black;
+	color: #5c4136;
 }
 
 nav>ul>li {
@@ -113,7 +122,7 @@ nav>ul>li>a {
 }
 
 nav>ul>li>a:hover,nav>ul>li>a:hover>.fa {
-	color: black;
+	color: #5c4136;
 }
 
 /* Inicio ocupara todo el espacio sobrante */
@@ -204,19 +213,17 @@ nav>ul>li#menu_moviles .fa:hover {
 
 /* Carrusel de imágenes */
 .contenedor-slider {
-  margin: auto;
-  /* padding-top: 130px; */
-  padding-top: 90px;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 0 10px #fff,
- 0 15px 50px;
+	margin: auto;
+  	/* padding-top: 130px; */
+  	padding-top: 90px;
+ 	width: 100%;
+  	position: relative;
+  	overflow: hidden;
 }
 
 .slider {
-  display: flex;
-  width: 300%;
+  	display: flex;
+  	width: 300%;
 }
 
 .slider__section {
@@ -256,6 +263,89 @@ nav>ul>li#menu_moviles .fa:hover {
 
 .btn-next {
   right: 10px;
+}
+
+/* Saber más */
+.saber_mas {
+  	text-align: center;	
+}
+
+.btn {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+  	top: 500px;
+  	font-family: 'Catamaran', sans-serif;
+  	font-size: 20px;
+  	border: none;
+  	border-radius: 5px;
+  	padding: 10px 30px;
+  	cursor: pointer; 
+  	cursor: hand;
+  	color: white;
+  	background-color: #7abfc4;
+}
+
+.btn:focus {
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+.btn:hover {
+	background-color: #5c4136;	
+}
+
+/* Nosotros */
+.nosotros {
+	margin: 50px auto;
+	width: 70%;	
+}
+
+.nosotros h3 {
+	font-size: 40px;
+	text-align: center;	
+}	
+
+.nosotros_imagen {
+	margin: 25px auto;
+	text-align: center;	
+}
+
+.nosotros_imagen img {
+ 	height: 500px;	
+}
+
+/* Como lo hacemos */
+.como_hacemos {
+	margin: 50px auto;
+	width: 70%;	
+}
+
+.contenedor-flex {
+	padding: 30px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.hijo-flex {
+	padding: 20px 5px;
+	width: 30%;
+	display: inline-block;
+}
+
+.como_hacemos h3 {
+	font-size: 40px;
+	text-align: center;	
+	color: #5c4136;
+}
+
+.como_hacemos .fas, .como_hacemos h4 {
+	font-size: 30px;
+	color: #bce1ea;	
 }
 
 /* CONTACTO
@@ -369,15 +459,15 @@ footer h3 {
 	font-size: 25px;	
 }
 
-footer a, footer .fa {
+footer a, footer .fab {
 	color: white;	
 }
 
-footer a:hover, footer .fa:hover {
+footer a:hover, footer .fab:hover {
 	color: #7abfc4;	
 }
 
-footer .fa {
+footer .fab {
 	padding: 10px;
 	font-size: 20px;	
 }
@@ -504,16 +594,6 @@ footer .fa {
 	#fotos,#contacto,#servicios,#homestaging {
 		display: block;
 		padding: 40px 20px;
-	}
-	.boton {
-		text-align: center;
-	}
-	.btn {
-		margin-top: 15px;
-		font-family: 'Catamaran', sans-serif;
-		font-size: 15px;
-		border-radius: 5px;
-		padding: 6px;
 	}
 	.oculto_movil {
 		display: inline-block;

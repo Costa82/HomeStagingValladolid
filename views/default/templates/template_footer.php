@@ -18,14 +18,13 @@
 		<div class="redes">
 		<h4>Síguenos</h4>
 		<a href="" title="Facebook"
-			target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+			target="_blank" rel="noopener"><i class="fab fa-facebook"></i>
 		</a> 
 		<a href=""
-			title="Twitter" target="_blank" rel="noopener"><i class="fa fa-twitter"
-			aria-hidden="true"></i> 
+			title="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> 
 		</a> 
 		<a href="" title="Instagram"
-			target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i>
+			target="_blank" rel="noopener"><i class="fab fa-instagram"></i>
 		</a>
 	</div>
 
