@@ -233,7 +233,7 @@ nav>ul>li#menu_moviles .fa:hover {
 .slider__img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .btn-prev, .btn-next {
@@ -277,7 +277,7 @@ nav>ul>li#menu_moviles .fa:hover {
 	left: 0;
 	right: 0;
 	text-align: center;
-  	top: 500px;
+  	top: 550px;
   	font-family: 'Catamaran', sans-serif;
   	font-size: 20px;
   	border: none;
@@ -299,14 +299,18 @@ nav>ul>li#menu_moviles .fa:hover {
 
 /* Nosotros */
 .nosotros {
-	margin: 50px auto;
+	margin: -160px auto;
 	width: 70%;	
 }
 
 .nosotros h3 {
 	font-size: 40px;
 	text-align: center;	
-}	
+}
+
+.nosotros p {
+	margin-top: 30px;	
+}
 
 .nosotros_imagen {
 	margin: 25px auto;
@@ -319,7 +323,7 @@ nav>ul>li#menu_moviles .fa:hover {
 
 /* Como lo hacemos */
 .como_hacemos {
-	margin: 50px auto;
+	margin: 230px auto;
 	width: 70%;	
 }
 

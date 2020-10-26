@@ -4,13 +4,13 @@
 <div id="contenedor-slider" class="contenedor-slider">
 	<div id="slider" class="slider">
 		<section class="slider__section"> <img
-			src="http://welltechnically.com/wp-content/uploads/2013/08/android-wallpapers-700x300.jpg"
+			src="./views/default/img/salon_sofa.jpg"
 			class="slider__img"></section>
 		<section class="slider__section"> <img
-			src="http://welltechnically.com/wp-content/uploads/2013/09/android-widescreen-wallpaper-14165-hd-wallpapers-700x300.jpg"
+			src="./views/default/img/sofa_cojines.jpg"
 			class="slider__img"></section>
 		<section class="slider__section"> <img
-			src="http://youghaltennisclub.ie/wp-content/uploads/2014/06/Tennis-Wallpaper-High-Definition-700x300.jpg"
+			src="./views/default/img/cama_cojines.jpg"
 			class="slider__img"></section>
 	</div>
 	<div id="btn-prev" class="btn-prev">&#60;</div>
