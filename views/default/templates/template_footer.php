@@ -10,7 +10,7 @@
 		// Estamos en alguna pagina que no sea la principal (Galeria, eventos, reservas, etc...)
 		echo '<li id="telefono">983 66 66 66 - 666 66 66 66</li>
               <li id="correo"><a href="mailto:info@merendalia.es"
-			title="Contactar">informacion@homestagingvalladolid.es</a></li>'
+			title="Contactar">hola@homestagingvalladolid.es</a></li>'
 		?>
 
 		</ul>

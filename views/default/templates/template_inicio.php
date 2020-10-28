@@ -61,7 +61,7 @@
 <body>
 
 	<header>
-
+		<div id='ancla_inicio'></div>
 		<nav>
 		<!-- Menu navegación -->
 		<?php include_once("template_menuNavIndex.php");?>
@@ -71,6 +71,8 @@
 
 	<!-- Contenido -->
 	<?php echo $contenido; ?>
+	
+	<?php include_once("template_cookies.php");?>
 
 	<footer>
 	<?php include_once("template_footer.php");?>
