@@ -1,5 +1,5 @@
 $(document).ready(function() {   
-  		
+	
 	// popUps
     $(window).resize(function(){
     	var aviso = $('.aviso');
@@ -57,16 +57,20 @@ $(document).ready(function() {
 	//almacenar botones
 	var siguiente = $('#btn-next');
 	var anterior = $('#btn-prev');
-
+	
 	//mover ultima imagen al primer lugar
 	$('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
 	//mostrar la primera imagen con un margen de -100%
 	slider.css('margin-left', '-'+100+'%');
+	
+	$('#slider .slider__section:last h2').fadeIn('slow');
 
 	function moverD() {
 	    slider.animate({
 	        marginLeft:'-'+200+'%'
 	    } ,700, function(){
+	    	$('#slider .slider__section:first h2').fadeIn('slow');
+	    	$('#slider .slider__section:last h2').fadeOut('fast');
 	        $('#slider .slider__section:first').insertAfter('#slider .slider__section:last');
 	        slider.css('margin-left', '-'+100+'%');
 	    });

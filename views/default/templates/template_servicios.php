@@ -1,6 +1,6 @@
 <?php
 echo '
-<div id="ancla2"></div>
+<div id="ancla_servicios"></div>
 <div class="bloque_texto servicios">
 	<h3>
 		<strong>TODOS LOS SERVICIOS FINANCIADOS AL 100%</strong>

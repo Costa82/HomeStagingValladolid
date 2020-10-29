@@ -1,6 +1,6 @@
 <?php
 echo '
-<div id="ancla3"></div>
+<div id="ancla_fotos"></div>
 <div class="bloque_texto galeria">
 	<h3>
 		<strong>GALERÍA</strong>

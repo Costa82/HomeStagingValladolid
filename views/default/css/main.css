@@ -106,23 +106,23 @@ p,span {
 	background-color: #5c4136;	
 }
 
-#ancla1, #ancla2, #ancla3, #ancla4 {
+#ancla_homestaging, #ancla_servicios, #ancla_fotos, #ancla_contacto {
 	position: absolute;
 }
 
-#ancla1 {
+#ancla_homestaging {
 	top: 955px;
 }
 
-#ancla2 {
+#ancla_servicios {
 	top: 2155px;
 }
 
-#ancla3 {
+#ancla_fotos {
 	top: 3200px;
 }
 
-#ancla4 {
+#ancla_contacto {
 	top: 4250px;
 }
 
@@ -278,7 +278,7 @@ nav>ul>li#menu_moviles .fa:hover {
 
 .slider {
   	display: flex;
-  	width: 300%;
+  	width: 400%;
 }
 
 .slider__section {
@@ -294,6 +294,47 @@ nav>ul>li#menu_moviles .fa:hover {
 
 .slider__section img {
 	object-fit: cover;
+}
+
+.slider__section h2 {
+	font-size: 50px;
+	color: black;
+	z-index: 1;	
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+  	top: 380px;
+  	display: none;
+  	text-align: center;
+  	opacity: 0.8;
+  	padding: 0;
+}
+
+h2.titulo1 {
+	color: white;
+	top: 317px;
+}
+
+h2.titulo2 {
+	color: white;
+	top: 438px;
+}
+
+span {
+	padding: 0 40px;
+	padding-bottom: 15px;
+}
+
+span.span_titulo1 {
+	background-color: #7abfc4;
+	font-size: 50px;
+}
+
+span.span_titulo2 {
+	background-color: #5c4136;
+	font-size: 50px;
 }
 
 .btn-prev, .btn-next {
@@ -340,7 +381,7 @@ nav>ul>li#menu_moviles .fa:hover {
 	margin-right: auto;
 	left: 0;
 	right: 0;
-  	top: 550px;
+  	top: 640px;
   	font-family: 'Catamaran', sans-serif;
 }
 

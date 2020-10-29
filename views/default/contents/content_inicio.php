@@ -3,9 +3,6 @@
 <!--SLIDER-->
 <?php include_once("./views/default/templates/template_slider.php");?>
 
-<!--Botón Saber Mas-->
-<?php include_once("./views/default/templates/template_botonSaberMas.php");?>
-
 <!--Homestaging-->
 <?php include_once("./views/default/templates/template_homestaging.php");?>
 

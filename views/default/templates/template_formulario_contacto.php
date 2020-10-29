@@ -1,6 +1,6 @@
 <?php
 echo '
-<div id="ancla4"></div>
+<div id="ancla_contacto"></div>
 <div class="bloque_texto formulario">
 
 	<h3>ENVÍANOS UN MENSAJE</h3>
