@@ -30,7 +30,7 @@ class Correo
      */
     public function enviarMailsReserva($mail, $nombre, $dia, $hora_entrada, $hora_salida, $telefono, $comentario, $whatsapp)
     {
-        $imagen = 'https://ibb.co/421njL3';
+        $imagen = 'https://i.ibb.co/S5c5t76/VECTORIAL-LOGOTIPO-LETRAS-2.png';
         
         $smtp = new PHPMailer();
         
@@ -129,7 +129,7 @@ class Correo
      */
     public function enviarCorreoInformativoReserva($mail, $nombre, $dia, $hora_entrada, $hora_salida, $telefono, $comentario, $whatsapp)
     {
-        $imagen = 'https://ibb.co/421njL3';
+        $imagen = 'https://i.ibb.co/S5c5t76/VECTORIAL-LOGOTIPO-LETRAS-2.png';
         
         $smtp = new PHPMailer();
         
@@ -231,7 +231,7 @@ class Correo
      */
     public function enviarMailsConsulta($mail, $nombre, $telefono, $consulta)
     {
-        $imagen = 'https://ibb.co/421njL3';
+        $imagen = 'https://i.ibb.co/S5c5t76/VECTORIAL-LOGOTIPO-LETRAS-2.png';
         
         $smtp = new PHPMailer();
         
@@ -270,12 +270,12 @@ class Correo
         $contenidoHTML = "<head>";
         $contenidoHTML .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">";
         $contenidoHTML .= "</head><body>";
-        $contenidoHTML .= "<h1 style='color: #d8c12d'>¡Hola " . $nombre . "!</h1>";
+        $contenidoHTML .= "<h2 style='color: #7abfc4'>¡Hola " . $nombre . "!</h2>";
         $contenidoHTML .= "<p>Muchas gracias por contactar con nosotros, en breve nos pondremos en contacto contigo.
-											</br>Un saludo y ¡¡gracias por contactar con nosotros!!</p>
-                                                                                        </br><strong>Teléfono de contacto:</strong> 623 11 62 40
-											</br>
-											</br><a href='https://www.valladolidhomestaging.es'><img src='" . $imagen . "' height='50'/></a>
+        				   </br></br>Un saludo!!</p>
+                           </br><strong>Teléfono de contacto:</strong> 623 11 62 40
+						   </br>
+											</br><a href='https://www.valladolidhomestaging.es'><img src='" . $imagen . "' height='130'/></a>
 											</br><p style='font-size: 10px;'><strong>AVISO SEGURIDAD</strong>
 											</br><strong>VALLADOLID HOME STAGING</strong> le informa que su dirección de correo electrónico, así como el resto de los datos de carácter personal de su tarjeta de visita 
 											que nos facilite, serán objeto de tratamiento automatizado en nuestros ficheros, con la finalidad de gestionar la agenda de contactos de nuestra empresa, para el 
@@ -332,7 +332,7 @@ class Correo
      */
     public function enviarCorreoInformativoConsulta($mail, $nombre, $telefono, $consulta)
     {
-        $imagen = 'https://ibb.co/421njL3';
+        $imagen = 'https://i.ibb.co/S5c5t76/VECTORIAL-LOGOTIPO-LETRAS-2.png';
         
         $smtp = new PHPMailer();
         
@@ -371,7 +371,7 @@ class Correo
         $contenidoHTML = "<head>";
         $contenidoHTML .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">";
         $contenidoHTML .= "</head><body>";
-        $contenidoHTML .= "<h1 style='color: #d8c12d'>¡Hola Administrador!</h1>";
+        $contenidoHTML .= "<h2 style='color: #7abfc4'>¡Hola Administrador!</h2>";
         $contenidoHTML .= "<p>" . $nombre . " ha realizado una consulta.</p>";
         
         if ($consulta != null) {
@@ -385,7 +385,7 @@ class Correo
         }
         
         $contenidoHTML .= "</br>
-						  </br><p><a href='https://www.valladolidhomestaging.es'><img src='" . $imagen . "' height='50'/></a></p>";
+						  </br><p><a href='https://www.valladolidhomestaging.es'><img src='" . $imagen . "' height='130'/></a></p>";
         
         $contenidoHTML .= "</body>\n";
         

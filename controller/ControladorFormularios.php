@@ -45,7 +45,6 @@ class ControladorFormularios
 				if ( isset($_REQUEST['telefono']) ) {
 
 					$telefono = $_REQUEST['telefono'];
-					$usuario->setTelefono($telefono);
 
 					if ($telefono != "" && $telefono != null) {
 							

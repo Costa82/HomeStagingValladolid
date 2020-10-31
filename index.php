@@ -35,6 +35,11 @@ $map = array(
         'controller' => 'ControladorFormularios',
         'action' => 'formulario_contacto',
         'privada' => false
+    ),
+    'respuesta_envio' => array(
+        'controller' => 'ControladorFormularios',
+        'action' => 'respuesta_envio',
+        'privada' => false
     )
 );
 
