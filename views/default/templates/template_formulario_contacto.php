@@ -7,8 +7,7 @@ echo '
 	
 	<h4>PARTICULAR O PROFESIONAL DEL SECTOR INMOBILIARIO: CONTESTAREMOS TODAS TUS PREGUNTAS Y QUEDAREMOS PARA VISITAR TU(S) INMUEBLE(S)</h4>
 
-	<form action="./formulario_contacto" method="post"
-		class="formularioRegistro" onSubmit="return validar();">
+	<form action="formulario_contacto" method="post" class="formularioRegistro"">
 		<div class="form">
 			<p><label>Nombre (Requerido)</label></p> <input type="text" name="nombre" class="nombre"  required="required" />
 		</div>
@@ -35,11 +34,11 @@ echo '
 				a los ficheros titularidad de Valladolid Home Staging, y serán tratados con la finalidad de contactarte para responder a 
 				peticiones de información, envío de presupuestos y otras finalidades relacionadas con nuestra actividad. 
 				Puedes ejercer, en cualquier momento, los derechos de acceso, rectificación, cancelación y oposición de tus datos 
-				de carácter personal mediante correo electrónico dirigido a <a href="hola@homestagingvalladolid.es" title="Contactar">hola@homestagingvalladolid.es</a>.
+				de carácter personal mediante correo electrónico dirigido a <a href="hola@valladolidhomestaging.es" title="Contactar">hola@valladolidhomestaging.es</a>.
 			</p>
 		</div>
 
-		<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+		<!-- input type="hidden" name="recaptcha_response" id="recaptchaResponse" -->
 
 		<div>
 			<button type="submit" name="enviar" class="boton boton_formulario">Enviar</button>

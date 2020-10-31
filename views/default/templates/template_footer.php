@@ -8,9 +8,11 @@
 
 		<?php
 		// Estamos en alguna pagina que no sea la principal (Galeria, eventos, reservas, etc...)
-		echo '<li id="telefono">983 66 66 66 - 666 66 66 66</li>
-              <li id="correo"><a href="mailto:info@merendalia.es"
-			title="Contactar">hola@homestagingvalladolid.es</a></li>'
+		echo '
+				<li id="direccion">Calle Turquesa, 12. 47012 Valladolid</li>
+				<li id="telefono">623 11 62 40</li>
+              	<li id="correo"><a href="hola@valladolidhomestaging.es"
+			title="Contactar">hola@valladolidhomestaging.es</a></li>'
 		?>
 
 		</ul>

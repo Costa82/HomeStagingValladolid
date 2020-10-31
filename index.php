@@ -17,29 +17,9 @@ $map = array(
         'action' => 'inicio',
         'privada' => false
     ),
-    'galeria' => array(
+    'blog' => array(
         'controller' => 'ControladorPaginas',
-        'action' => 'galeria',
-        'privada' => false
-    ),
-    'contacto' => array(
-        'controller' => 'ControladorPaginas',
-        'action' => 'contacto',
-        'privada' => false
-    ),
-    'aviso_legal' => array(
-        'controller' => 'ControladorPaginas',
-        'action' => 'aviso_legal',
-        'privada' => false
-    ),
-    'politica_privacidad_y_proteccion_datos' => array(
-        'controller' => 'ControladorPaginas',
-        'action' => 'politica_privacidad_y_proteccion_datos',
-        'privada' => false
-    ),
-    'cookies' => array(
-        'controller' => 'ControladorPaginas',
-        'action' => 'cookies',
+        'action' => 'blog',
         'privada' => false
     ),
     
@@ -48,7 +28,14 @@ $map = array(
         'controller' => 'ControladorPaginas',
         'action' => 'page404',
         'privada' => false
-     )
+     ),
+     
+     // Formulario
+    'formulario_contacto' => array(
+        'controller' => 'ControladorFormularios',
+        'action' => 'formulario_contacto',
+        'privada' => false
+    )
 );
 
 // Parseo de la ruta
