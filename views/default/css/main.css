@@ -329,24 +329,29 @@ span.span_titulo3 {
 }
 
 .btn-prev, .btn-next {
-  display: none;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
-  line-height: 40px;
-  font-size: 30px;
+  line-height: 29px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   border-radius: 50%;
   font-family: monospace;
   cursor: pointer;
+  opacity: 0.5;
 }
 
 .btn-prev:hover, .btn-next:hover {
   background: white;
+  opacity: 1;
+}
+
+.btn-prev:active, .btn-next:active {
+     outline: none;
 }
 
 .btn-prev {
@@ -362,7 +367,7 @@ span.span_titulo3 {
   	text-align: center;
 }
 
-.saber_mas a {
+.saber_mas a, .saber_mas .fas {
 	color: white;
 }
 
@@ -710,6 +715,12 @@ footer .fab {
 
 /* Para resoluciones a partir de 800px */
 @media only screen and (min-width: 800px) {
+	.btn-prev, .btn-next {
+		width: 40px;
+		height: 40px;
+	    line-height: 40px;
+		font-size: 40px;
+	}
 	.bloque_texto {
 		margin-top: 25px;
 		width: 80%;
@@ -817,6 +828,9 @@ footer .fab {
 
 /* Para resoluciones a partir de 1250px */
 @media only screen and (min-width: 1250px) {
+	.btn-prev, .btn-next {
+		top: 50%;
+	}
 	h4 {
 		font-size: 20px;
 	}

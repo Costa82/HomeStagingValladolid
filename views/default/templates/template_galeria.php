@@ -9,7 +9,15 @@ echo '
 	<div class="contenedor-flex">
 
 		<div class="hijo-flex">
-			<img src="./views/default/img/cocina.jpg" title="cocina"/>
+		
+			<a class="fancybox" rel="group"
+    				href="./views/default/img/cocina.jpg" title="Terraza cubierta Merendalia"><img
+    				src="./views/default/img/cocina.jpg" class="foto img_ordenador"
+    				title="Terraza cubierta Merendalia" alt="Merendalia Celebración Fiesta Amigos Familia Juntarse" /></a>
+    				<img
+    				src="./views/default/img/cocina.jpg" class="foto img_movil"
+    				title="Terraza cubierta Merendalia" alt="Merendalia Celebración Fiesta Amigos Familia Juntarse" />
+		
 		</div>
 
 		<div class="hijo-flex">

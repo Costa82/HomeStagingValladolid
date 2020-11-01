@@ -43,6 +43,30 @@
 <script src="./views/default/jquery/jquery-3.1.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-latest.min.js"
 	type="text/javascript"></script>
+	
+<script src="./views/default/jquery/zoom_fancybox.js"></script>
+<!-- Add fancyBox -->
+<script>
+    var rutacss2 = "./views/default/fancybox/source/jquery.fancybox.css?v=2.1.7?" + Math.random();
+    document.write('<link rel="stylesheet" href="' + rutacss2 + '" type="text/css" media="screen" />'); 
+</script>
+<script type="text/javascript"
+	src="./views/default/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet"
+	href="./views/default/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5"
+	type="text/css" media="screen" />
+<script type="text/javascript"
+	src="./views/default/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript"
+	src="./views/default/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet"
+	href="./views/default/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7"
+	type="text/css" media="screen" />
+<script type="text/javascript"
+	src="./views/default/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
 <!-- Metemos un aleatorio para la recarga automAtica del css y el js -->
 <script>

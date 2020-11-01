@@ -69,8 +69,8 @@ $(document).ready(function() {
 	    slider.animate({
 	        marginLeft:'-'+200+'%'
 	    } ,700, function(){
+	    	$('#slider .slider__section h2').fadeOut('fast');
 	    	$('#slider .slider__section:first h2').fadeIn('slow');
-	    	$('#slider .slider__section:last h2').fadeOut('fast');
 	        $('#slider .slider__section:first').insertAfter('#slider .slider__section:last');
 	        slider.css('margin-left', '-'+100+'%');
 	    });
@@ -80,6 +80,8 @@ $(document).ready(function() {
 	    slider.animate({
 	        marginLeft:0
 	    } ,700, function(){
+	    	$('#slider .slider__section h2').fadeOut('fast');
+	    	$('#slider .slider__section:first h2').fadeIn('slow');
 	        $('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
 	        slider.css('margin-left', '-'+100+'%');
 	    });
