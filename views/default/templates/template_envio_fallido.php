@@ -6,8 +6,10 @@ echo'
 	<p>
 		Ha ocurrido un error al enviar el formulario, puede volver a intentarlo o
 		 ponerse en contacto con nosotros por estos otros medios: </br>
-		</br>Calle Turquesa, 12 </br> </br>47012 Valladolid </br> </br>Teléfono
-		623 11 62 40 </br> </br>Email: <a href="mailto:hola@valladolidhomestaging.es"
+		</br>Calle Turquesa, 12 </br>
+		47012 Valladolid </br>
+		623 11 62 40 </br>
+		<a href="mailto:hola@valladolidhomestaging.es"
 		title="Contactar">hola@valladolidhomestaging.es</a>
 	</p>';
 ?>

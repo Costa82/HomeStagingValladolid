@@ -10,28 +10,27 @@ $correo = new Correo();
 class ControladorFormularios
 {
 
-
 	/**
 	 * Método para el formulario de contacto
 	 */
 	public function formulario_contacto()
 	{
-		//6Lf7WsQUAAAAALVQFOHGLzIecVOnOc7vSASkeFwQ local
-		//6LcJW8QUAAAAAHZwrH69SW0bmGN2LotC37S2ZHaU producción
-		//$recaptcha_secret = '6LcJW8QUAAAAAHZwrH69SW0bmGN2LotC37S2ZHaU';
-		//$recaptcha_response = $_POST['recaptcha_response'];
+		//6LdPFd4ZAAAAAC2bhYM05WBVR_7gl0HsQCRUXugP local
+		//6LcfFd4ZAAAAAEGY3pAd5FyubNKX2SrYr7Z6SFNo producción
+		$recaptcha_secret = '6LcfFd4ZAAAAAEGY3pAd5FyubNKX2SrYr7Z6SFNo';
+		$recaptcha_response = $_POST['recaptcha_response'];
 
-		//$ch = curl_init();
-		//curl_setopt($ch, CURLOPT_URL,"https://www.google.com/recaptcha/api/siteverify?");
-		//curl_setopt($ch, CURLOPT_POST, 1);
-		//$campos=array('secret'=>$recaptcha_secret,'response'=>$recaptcha_response);
-		//curl_setopt($ch, CURLOPT_POSTFIELDS,$campos);
-		//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		//$ch_exec = curl_exec($ch);
-		//$respuesta_google = json_decode($ch_exec);
-		//curl_close ($ch);
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL,"https://www.google.com/recaptcha/api/siteverify?");
+		curl_setopt($ch, CURLOPT_POST, 1);
+		$campos=array('secret'=>$recaptcha_secret,'response'=>$recaptcha_response);
+		curl_setopt($ch, CURLOPT_POSTFIELDS,$campos);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		$ch_exec = curl_exec($ch);
+		$respuesta_google = json_decode($ch_exec);
+		curl_close ($ch);
 
-		//if($respuesta_google->score > 0.2){
+		if($respuesta_google->score > 0.2){
 
 			if(isset($_REQUEST['nombre']) AND isset($_REQUEST['mail'])){
 
@@ -85,9 +84,9 @@ class ControladorFormularios
 			}
 
 			// El recaptcha ha ido mal
-		//} else {
-			//$_SESSION['error'] = 503;
-		//}
+		} else {
+			$_SESSION['error'] = 503;
+		}
 
 		if (!headers_sent()) {
 			header('Location:respuesta_envio');

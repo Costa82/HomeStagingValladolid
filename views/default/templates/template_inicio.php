@@ -67,6 +67,19 @@
 	type="text/css" media="screen" />
 <script type="text/javascript"
 	src="./views/default/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	
+<script src='https://www.google.com/recaptcha/api.js?render=6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3'> 
+	//6LdPFd4ZAAAAAF2swsyoEk36ow12TcHZ6q6e7FeL local
+	//6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3 producción
+</script>
+<script>
+	grecaptcha.ready(function() {
+	grecaptcha.execute('6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3', {action: 'contacto'})
+	.then(function(token) {
+	var recaptchaResponse = document.getElementById('recaptchaResponse');
+	recaptchaResponse.value = token;
+	});});
+</script>
 
 <!-- Metemos un aleatorio para la recarga automAtica del css y el js -->
 <script>

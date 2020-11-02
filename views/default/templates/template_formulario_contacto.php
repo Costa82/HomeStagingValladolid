@@ -38,7 +38,7 @@ echo '
 			</p>
 		</div>
 
-		<!-- input type="hidden" name="recaptcha_response" id="recaptchaResponse" -->
+		<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 
 		<div>
 			<button type="submit" name="enviar" class="boton boton_formulario">Enviar</button>

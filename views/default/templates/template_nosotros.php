@@ -9,7 +9,7 @@ echo '
 		<div class="hijo-flex">
 
 			<div class="nosotros_imagen">
-				<img src="./views/default/img/batman.png" />
+				<img src="./views/default/img/Carlos.png" title="Carlos" alt="Carlos" />
 				<p class="nombres">
 					<strong>Carlos García</strong>
 				</p>
@@ -29,7 +29,7 @@ echo '
 		<div class="hijo-flex">
 
 			<div class="nosotros_imagen">
-				<img src="./views/default/img/batman.png" />
+				<img src="./views/default/img/Beatriz.png"  title="Beatriz" alt="Beatriz" />
 				<p class="nombres">
 					<strong>Beatriz Lozares</strong>
 				</p>
