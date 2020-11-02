@@ -913,6 +913,10 @@ footer ul {
 
 /* Para resoluciones a partir de 1400px */
 @media only screen and (min-width: 1400px) {
+	.contenedor_contacto p {
+		margin-top: 130px;
+		margin-bottom: 150px;
+	}
 	.slider {
 	  	height: 700px;
 	}

@@ -10,5 +10,5 @@ echo '
 		estética y funcional. Se vende hasta 8 veces más rápido y en un 37% de
 		los casos el precio de venta aumenta.</p>
 	<p>¡Porque un inmueble atractivo,
-		modero y luminoso destaca en el merca</p>
+		modero y luminoso destaca en el mercado!</p>
 </div>';
