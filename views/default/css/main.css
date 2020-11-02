@@ -551,6 +551,14 @@ p.titulo_proteccion_datos {
 	text-align: center;
 }
 
+.texto_legal_formulario a {
+	color: #7abfc4;
+}
+
+.texto_legal_formulario a:hover {
+	color: #bce1ea;
+}
+
 /* TEXTOS LEGALES
 ========================================================================= */
 
