@@ -456,6 +456,13 @@ span.span_titulo3 {
 }
 
 /* Galería */
+img.img_ordenador {
+	display: none;
+}
+img.img_movil {
+	display: inline-block;
+}
+
 .galeria {
 	text-align: center;	
 	width: 100%;
