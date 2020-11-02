@@ -1,4 +1,41 @@
-$(document).ready(function() {   
+$(document).ready(function() {  
+	
+	// anclas
+	$(function() {
+		$('a[href*="#"]:not([href="#"])').click(
+		function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname
+				.replace(/^\//, '')
+				&& location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name='
+							+ this.hash.slice(1) + ']');
+					if (target.length) {
+						if ($( window ).width() > 1600) {
+							$('html, body').animate({
+								scrollTop : target.offset().top-130}, 1000);
+						} else if ($( window ).width() > 1400 && $( window ).width() < 1600) {
+							$('html, body').animate({
+								scrollTop : target.offset().top-120}, 1000);
+						} else if ($( window ).width() > 1250 && $( window ).width() < 1400) {
+							$('html, body').animate({
+								scrollTop : target.offset().top-130}, 1000);
+						} else if ($( window ).width() > 800 && $( window ).width() < 1250) {
+							$('html, body').animate({
+								scrollTop : target.offset().top-95}, 1000);
+						} else if ($( window ).width() > 500 && $( window ).width() < 800) {
+							$('html, body').animate({
+								scrollTop : target.offset().top-90}, 1000);
+						} else {
+							$('html, body').animate({
+								scrollTop : target.offset().top-100}, 1000);
+						}
+					
+					return false;
+				}
+			}
+		});
+	});
 	
 	// popUps
     $(window).resize(function(){
@@ -159,23 +196,3 @@ $(function() {
 function popbox3() {
     $('#overbox3').toggle();
 }
-
-// anclas
-$(function() {
-	$('a[href*="#"]:not([href="#"])').click(
-	function() {
-		if (location.pathname.replace(/^\//, '') == this.pathname
-			.replace(/^\//, '')
-			&& location.hostname == this.hostname) {
-				var target = $(this.hash);
-				target = target.length ? target : $('[name='
-						+ this.hash.slice(1) + ']');
-				if (target.length) {
-					$('html, body').animate({
-						scrollTop : target.offset().top - 145
-				}, 1000);
-				return false;
-			}
-		}
-	});
-});

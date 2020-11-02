@@ -86,7 +86,7 @@
 
 	</div>
 
-	<footer class="fixed_bottom">
+	<footer>
         <?php include_once("template_footer.php");?>        
     </footer>
 

@@ -48,7 +48,7 @@ class Correo
         
         // datos de quien realiza el envio
         $smtp->From = "hola@valladolidhomestaging.es"; // from mail
-        $smtp->FromName = "Administrador de VALLADOLID HOME STAGING"; // from mail name
+        $smtp->FromName = "Valladolid Home Staging"; // from mail name
         
         // Indicamos las direcciones donde enviar el mensaje con el formato
         // "correo"=>"nombre usuario"
@@ -149,7 +149,7 @@ class Correo
         
         // datos de quien realiza el envio
         $smtp->From = "hola@valladolidhomestaging.es"; // from mail
-        $smtp->FromName = "Administrador de VALLADOLID HOME STAGING"; // from mail name
+        $smtp->FromName = "Valladolid Home Staging"; // from mail name
         
         // Indicamos las direcciones donde enviar el mensaje con el formato
         // "correo"=>"nombre usuario"

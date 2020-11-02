@@ -18,14 +18,14 @@
 		</ul>
 		
 		<div class="redes">
-		<h4>Síguenos</h4>
-		<a href="" title="Facebook"
+		<!--  h4>Síguenos</h4 -->
+		<a href="https://www.facebook.com/VLLHomeStaging" title="Facebook"
 			target="_blank" rel="noopener"><i class="fab fa-facebook"></i>
 		</a> 
-		<a href=""
+		<a href="https://twitter.com/VLL_HomeStaging"
 			title="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> 
 		</a> 
-		<a href="" title="Instagram"
+		<a href="https://www.instagram.com/vllhomestaging/" title="Instagram"
 			target="_blank" rel="noopener"><i class="fab fa-instagram"></i>
 		</a>
 	</div>

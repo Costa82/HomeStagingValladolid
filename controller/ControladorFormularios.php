@@ -30,7 +30,7 @@ class ControladorFormularios
 		$respuesta_google = json_decode($ch_exec);
 		curl_close ($ch);
 
-		if($respuesta_google->score > 0.2){
+		if($respuesta_google->score > 0.1){
 
 			if(isset($_REQUEST['nombre']) AND isset($_REQUEST['mail'])){
 

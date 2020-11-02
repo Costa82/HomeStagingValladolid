@@ -3,7 +3,7 @@ echo '
 <div id="ancla_fotos"></div>
 <div class="bloque_texto galeria">
 	<h3>
-		<strong>GALERÍA</strong>
+		<strong>FOTOS</strong>
 	</h3>
 
 	<div class="contenedor-flex">
