@@ -15,7 +15,7 @@ echo '
 			<p><label>Email (Requerido)</label></p> <input type="email" name="mail" class="mail"  required="required" />
 		</div>
 		<div class="form">
-			<p><label>Telefono</label></p> <input type="tel" name="telefono" class="telefono" />
+			<p><label>Teléfono</label></p> <input type="tel" name="telefono" class="telefono" />
 		</div>
 		<div>
 			<p><label>Consulta (Requerido)</label></p>

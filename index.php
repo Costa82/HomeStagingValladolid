@@ -22,6 +22,11 @@ $map = array(
         'action' => 'blog',
         'privada' => false
     ),
+    'home_staging_vender_alquilar_rapido_mejor_precio' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'home_staging_vender_alquilar_rapido_mejor_precio',
+        'privada' => false
+    ),
     
     // Páginas de error
     'page404' => array(

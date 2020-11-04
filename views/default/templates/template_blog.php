@@ -1,5 +1,5 @@
 <!--
-- Pagina inicio Home Staging Valladolid.
+- Pagina del blog Home Staging Valladolid.
 - @author Miguel Costa.
 -->
 
@@ -11,16 +11,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Content-Language" content="es" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Ponemos a punto tu casa para vender o alquilar en el menor tiempo y al mejor precio." />
+<meta name="description" content="" />
 <meta name="robots" content="NOODP">
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Home Staging Valladolid" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="" />
-<meta property="og:image:width" content="681" />
-<meta property="og:image:height" content="494" />
-<meta property="og:url" content="" />
-<title>Home Staging Valladolid</title>
+<title>Blog Home Staging Valladolid</title>
 
 <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
 <link rel="stylesheet" href="./views/default/css/all.css">
@@ -68,19 +61,6 @@
 <script type="text/javascript"
 	src="./views/default/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 	
-<script src='https://www.google.com/recaptcha/api.js?render=6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3'> 
-	//6LdPFd4ZAAAAAF2swsyoEk36ow12TcHZ6q6e7FeL local
-	//6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3 producción
-</script>
-<script>
-	grecaptcha.ready(function() {
-	grecaptcha.execute('6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3', {action: 'contacto'})
-	.then(function(token) {
-	var recaptchaResponse = document.getElementById('recaptchaResponse');
-	recaptchaResponse.value = token;
-	});});
-</script>
-
 <!-- Metemos un aleatorio para la recarga automAtica del css y el js -->
 <script>
 
@@ -101,7 +81,7 @@
 		<div id='ancla_inicio'></div>
 		<nav>
 		<!-- Menu navegación -->
-		<?php include_once("template_menuNavIndex.php");?>
+		<?php include_once("template_menuNav.php");?>
 		</nav>
 
 	</header>
@@ -109,9 +89,7 @@
 	<!-- Contenido -->
 	<?php echo $contenido; ?>
 	
-	<?php include_once("template_cookies.php");?>
-
-	<footer>
+	<footer class = "fixed_bottom">
 	<?php include_once("template_footer.php");?>
 	</footer>
 
