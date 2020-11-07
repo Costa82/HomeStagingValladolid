@@ -121,7 +121,7 @@ header {
 }
 
 .logo_ordenador {
-	display: none;
+	/*display: none;*/
 	margin-bottom: -25px;
 }
 
@@ -174,8 +174,8 @@ nav>ul>li>a:hover,nav>ul>li>a:hover>.fa {
 }
 
 #inicio img {
-	height: 80px;
-	margin-top: 0;
+	height: 100px;
+	margin-top: -10px;
 	margin-left: 10px;
 }
 
@@ -261,7 +261,7 @@ nav>ul>li#menu_moviles .fa {
 
 .slider {
   	display: flex;
-  	width: 400%;
+  	width: 300%;
   	height: 300px;
 }
 
@@ -365,6 +365,7 @@ span.span_titulo3 {
 
 /* Saber más */
 .saber_mas {
+	display: none;
   	text-align: center;
 }
 
@@ -785,8 +786,52 @@ footer ul {
 	font-size: 13px;
 }
 
+.footerPrincipal {
+	padding: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.footerPrincipal ul {
+	font-size: 15px;
+}
+
+.footerPrincipal h3 {
+	font-size: 18px;
+}
+
+img.logo_blanco {
+	height: 50px;
+	text-align: left;
+}
+
+.logo_footer,.redes {
+	width: 100%;
+}
+
+.espacio {
+	margin-top: 10px;
+}
+
+.ordenador {
+	display: inline-block;
+}
+
+.movil {
+	display: none;
+}
+
 /*RESPONSIVE
 ========================================================================= */
+/* Para resoluciones a partir de 750px de alto */
+@media only screen and (min-height: 750px) {
+	.footer_blog {
+		position: fixed; 
+		bottom: 0;	
+	}
+}
 
 /* Para resoluciones a partir de 500px */
 @media only screen and (min-width: 500px) {
@@ -807,12 +852,12 @@ footer ul {
 	nav>#lista_principal_index {
 		padding-top: 15px;
 	}
-	.logo_movil {
+	/*.logo_movil {
 		display: none;
 	}
 	.logo_ordenador {
 		display: inline;
-	}
+	}*/
 	#inicio img {
 		height: 110px;
 		margin-top: -20px;
@@ -828,9 +873,6 @@ footer ul {
 		margin-top: 100px;
 		margin-bottom: 100px;
 	}
-	.movil {
-		display: none;
-	}
 	.ultimo {
 		padding-top: 0;
 	}
@@ -841,12 +883,6 @@ footer ul {
 
 /* Para resoluciones a partir de 700px */
 @media only screen and (min-width: 700px) {
-	img.img_ordenador {
-		display: inline-block;
-	}
-	img.img_movil {
-		display: none;
-	}
 	iframe {
 		height: 400px;	
 	}
@@ -857,6 +893,15 @@ footer ul {
 
 /* Para resoluciones a partir de 800px */
 @media only screen and (min-width: 800px) {
+	.logo_footer,.redes {
+		width: 33%;
+	}
+	.movil {
+		display: inline-block;
+	}
+	.ordenador {
+		display: none;
+	}
 	.explicacion_blog {
 		padding-top: 130px;
 	}
@@ -951,6 +996,13 @@ footer ul {
 
 /* Para resoluciones a partir de 880px */
 @media only screen and (min-width: 880px) {
+	.footerPrincipal ul {
+		font-size: 18px;
+	}
+	
+	.footerPrincipal h3 {
+		font-size: 20px;
+	}
 	h1 {
 		margin-top: 50px;
 	}
@@ -1010,12 +1062,9 @@ footer ul {
 		display: block;
 		padding: 40px 20px;
 	}
-	.oculto_movil {
-		display: inline-block;
-	}
 	#inicio img {
 		height: 140px;
-		margin-top: -30px;
+		margin-top: -25px;
 	}
 	iframe {
 		height: 600px;	

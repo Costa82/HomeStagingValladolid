@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="" />
 <meta name="robots" content="NOODP">
-<title>Blog Home Staging Valladolid</title>
+<title>Blog Valladolid Home Staging</title>
 
 <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
 <link rel="stylesheet" href="./views/default/css/all.css">
@@ -89,7 +89,7 @@
 	<!-- Contenido -->
 	<?php echo $contenido; ?>
 	
-	<footer class = "fixed_bottom">
+	<footer class="footer_blog">
 	<?php include_once("template_footer.php");?>
 	</footer>
 

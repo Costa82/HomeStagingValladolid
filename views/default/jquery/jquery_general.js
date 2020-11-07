@@ -100,14 +100,17 @@ $(document).ready(function() {
 	//mostrar la primera imagen con un margen de -100%
 	slider.css('margin-left', '-'+100+'%');
 	
-	$('#slider .slider__section:last h2').fadeIn('slow');
+	$('#slider .slider__section:nth-child(2) h2').fadeIn('slow');
+	$('#slider .slider__section:nth-child(2) .saber_mas').fadeIn('slow');
 
 	function moverD() {
 	    slider.animate({
 	        marginLeft:'-'+200+'%'
 	    } ,700, function(){
 	    	$('#slider .slider__section h2').fadeOut('fast');
-	    	$('#slider .slider__section:first h2').fadeIn('slow');
+	    	$('#slider .slider__section:last h2').fadeIn('slow');
+	    	$('#slider .slider__section .saber_mas').fadeOut('fast');
+	    	$('#slider .slider__section:last .saber_mas').fadeIn('slow');
 	        $('#slider .slider__section:first').insertAfter('#slider .slider__section:last');
 	        slider.css('margin-left', '-'+100+'%');
 	    });
@@ -119,6 +122,8 @@ $(document).ready(function() {
 	    } ,700, function(){
 	    	$('#slider .slider__section h2').fadeOut('fast');
 	    	$('#slider .slider__section:first h2').fadeIn('slow');
+	    	$('#slider .slider__section .saber_mas').fadeOut('fast');
+	    	$('#slider .slider__section:first .saber_mas').fadeIn('slow');
 	        $('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
 	        slider.css('margin-left', '-'+100+'%');
 	    });

@@ -1,7 +1,7 @@
 <?php
 // Menu principal para la pagina principal index.php
 echo "<ul id='lista_principal_index'>
-        <li id='inicio' class='logo_movil'><a href='#ancla_inicio' title='Inicio'><img src='./views/default/img/logos/VECTORIAL_IMAGOLOGO_2.svg' alt='Home Staging Valladolid'/></a></li>
+        <!-- li id='inicio' class='logo_movil'><a href='#ancla_inicio' title='Inicio'><img src='./views/default/img/logos/VECTORIAL_IMAGOLOGO_2.svg' alt='Home Staging Valladolid'/></a></li -->
         <li id='inicio' class='logo_ordenador'><a href='#ancla_inicio' title='Inicio'><img src='./views/default/img/logos/VECTORIAL_LOGOTIPO_LETRAS_2.svg' alt='Home Staging Valladolid'/></a></li>
         <li id='homestaging'><a href='#ancla_homestaging' title='Home Staging'><strong>HOME STAGING</strong></a></li>
         <li id='servicios'><a href='#ancla_servicios' title='Servicio'><strong>SERVICIOS</strong></a></li>
