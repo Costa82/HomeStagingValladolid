@@ -144,6 +144,7 @@ nav>#lista_principal_index {
 	width: 100%;
 	z-index: 99;
 	font-size: 11px;
+	padding-bottom: 10px;
 }
 
 #fotos,#contacto,#servicios,#homestaging,#blog {
@@ -253,7 +254,7 @@ nav>ul>li#menu_moviles .fa {
 .contenedor-slider {
 	margin: auto;
   	/* padding-top: 130px; */
-  	padding-top: 80px;
+  	padding-top: 75px;
  	width: 100%;
   	position: relative;
   	overflow: hidden;
@@ -710,7 +711,7 @@ h3.titulo_articulo {
 	cursor: pointer;
 }
 
-.img_articulo, iframe {
+.img_articulo {
 	width: 80%;
 	max-width: 800px;
 	margin-top: 25px;
@@ -839,13 +840,6 @@ img.logo_blanco {
 	}
 }
 
-/* Para resoluciones a partir de 500px */
-@media only screen and (min-width: 500px) {
-	iframe {
-		height: 300px;	
-	}
-}
-
 /* Para resoluciones a partir de 600px */
 @media only screen and (min-width: 600px) {
 	.galeria .hijo-flex {
@@ -882,9 +876,6 @@ img.logo_blanco {
 	.ultimo {
 		padding-top: 0;
 	}
-	iframe {
-		height: 350px;	
-	}
 }
 
 /* Para resoluciones a partir de 700px */
@@ -895,9 +886,6 @@ img.logo_blanco {
 	img.img_movil {
 		display: none;
 	}
-	iframe {
-		height: 400px;	
-	}
 	.formulario h4 {
 		display: inline-block;
 	}
@@ -905,6 +893,9 @@ img.logo_blanco {
 
 /* Para resoluciones a partir de 800px */
 @media only screen and (min-width: 800px) {
+	.contenedor-slider {
+	  	padding-top: 85px;
+	}
 	.CookieDeclarationTableCell{
 		font-size: 20px;
 	}
@@ -970,6 +961,7 @@ img.logo_blanco {
 	}
 	nav>#lista_principal_index {
 		font-size: 24px;
+		padding-bottom: 0;
 	}
 	p,span {
 		font-size: 20px;
@@ -993,9 +985,6 @@ img.logo_blanco {
 	}
 	.icono_imagen i {
 		font-size: 30px;
-	}
-	iframe {
-		height: 450px;	
 	}
 	footer ul {
 		font-size: 20px;
@@ -1034,9 +1023,6 @@ img.logo_blanco {
 	.ultimo {
 		padding-top: 0;
 	}
-	iframe {
-		height: 500px;	
-	}
 	footer h3 {
 		font-size: 25px;	
 	}
@@ -1046,9 +1032,6 @@ img.logo_blanco {
 @media only screen and (min-width: 1100px) {
 	.aviso {
 		width: 500px;
-	}
-	iframe {
-		height: 550px;	
 	}
 	.nosotros_imagen img {
  		height: 400px;	
@@ -1080,9 +1063,6 @@ img.logo_blanco {
 	#inicio img {
 		height: 140px;
 		margin-top: -25px;
-	}
-	iframe {
-		height: 600px;	
 	}
 }
 
@@ -1123,9 +1103,6 @@ img.logo_blanco {
 	nav>#lista_principal_index {
 		font-size: 22px;
 	}
-	iframe {
-		height: 650px;	
-	}
 }
 
 /* Para resoluciones a partir de 1600px */
@@ -1158,8 +1135,5 @@ img.logo_blanco {
 	#inicio img {
 		height: 150px;
 		margin-top: -35px;
-	}
-	iframe {
-		height: 700px;	
 	}
 }
