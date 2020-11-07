@@ -889,6 +889,12 @@ img.logo_blanco {
 
 /* Para resoluciones a partir de 700px */
 @media only screen and (min-width: 700px) {
+	img.img_ordenador {
+		display: inline-block;
+	}
+	img.img_movil {
+		display: none;
+	}
 	iframe {
 		height: 400px;	
 	}
