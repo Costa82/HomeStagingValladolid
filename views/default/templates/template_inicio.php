@@ -46,10 +46,12 @@
 <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a1535c15-7aa3-4be0-ae76-0a11640e06c0" data-blockingmode="auto" type="text/javascript"></script>
 
 <script src="./views/default/jquery/jquery-3.1.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-latest.min.js"
-	type="text/javascript"></script>
-
 <script src="./views/default/jquery/zoom_fancybox.js"></script>
+
+<!-- Add jQuery library -->
+<script type="text/javascript"
+	src="https://code.jquery.com/jquery-latest.min.js"></script>
+	
 <!-- Add fancyBox -->
 <script>
     var rutacss2 = "./views/default/fancybox/source/jquery.fancybox.css?v=2.1.7?" + Math.random();
@@ -113,9 +115,7 @@
 	</header>
 
 	<!-- Contenido -->
-		<?php echo $contenido; ?>
-
-		<!--  ?php include_once("template_cookies.php");? -->
+	<?php echo $contenido; ?>
 
 	<footer>
 	<?php include_once("template_footer.php");?>

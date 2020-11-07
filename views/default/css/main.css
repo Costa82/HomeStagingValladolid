@@ -823,6 +823,12 @@ img.logo_blanco {
 	display: none;
 }
 
+/*DECLARACIÓN DE COOKIES
+========================================================================= */
+.CookieDeclarationTableCell{
+	font-size: 15px;
+}
+
 /*RESPONSIVE
 ========================================================================= */
 /* Para resoluciones a partir de 750px de alto */
@@ -893,6 +899,9 @@ img.logo_blanco {
 
 /* Para resoluciones a partir de 800px */
 @media only screen and (min-width: 800px) {
+	.CookieDeclarationTableCell{
+		font-size: 20px;
+	}
 	.logo_footer,.redes {
 		width: 33%;
 	}
