@@ -27,6 +27,11 @@ $map = array(
         'action' => 'home_staging_vender_alquilar_rapido_mejor_precio',
         'privada' => false
     ),
+    'declaracion_cookies' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'declaracion_cookies',
+        'privada' => false
+    ),
     
     // Páginas de error
     'page404' => array(

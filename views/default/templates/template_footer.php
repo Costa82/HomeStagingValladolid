@@ -17,6 +17,7 @@
 			<li id="telefono">623 11 62 40</li>
             <li id="correo"><a href="mailto:hola@valladolidhomestaging.es"
 			title="Contactar">hola@valladolidhomestaging.es</a></li>
+			<li id="declaracionCookies"><a href="declaracion-cookies" >Declaración de Cookies</a></li>
 		</ul>
 		
 		<div class="redes ordenador">

@@ -66,4 +66,18 @@ class ControladorPaginas
 		require './views/home_staging_vender_alquilar_rapido_mejor_precio.php';
 	}
 
+	/**
+	 * Método para cargar la página de la declaración de cookies
+	 */
+	public function declaracion_cookies()
+	{
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		
+		require './views/declaracion_cookies.php';
+	}
 }
