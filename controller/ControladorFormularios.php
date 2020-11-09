@@ -27,10 +27,11 @@ class ControladorFormularios
 		curl_setopt($ch, CURLOPT_POSTFIELDS,$campos);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		$ch_exec = curl_exec($ch);
-		$respuesta_google = json_decode($ch_exec);
 		curl_close ($ch);
 
-		if($respuesta_google->score > 0.1){
+		$respuesta_google = json_decode($ch_exec);
+		
+		if($respuesta_google->success === true){
 
 			if(isset($_REQUEST['nombre']) AND isset($_REQUEST['mail'])){
 

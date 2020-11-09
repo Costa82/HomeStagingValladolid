@@ -20,12 +20,12 @@ echo '
 
 		<div class="hijo-flex">
 			<a class="fancybox" rel="group"
-    				href="./views/default/img/cocina_reformada_comedor_home_staging.png" title="Cocina reformada comedor Home Staging"><img
+    				href="./views/default/img/cocina_reformada_comedor_home_staging.png" title="Cocina comedor reacondicionado puesta a punto Home Staging"><img
     				src="./views/default/img/cocina_reformada_comedor_home_staging.png" class="foto img_ordenador"
-    				title="Cocina reformada comedor Home Staging" alt="Cocina reformada comedor Home Staging" /></a>
+    				title="Cocina comedor reacondicionado puesta a punto Home Staging" alt="Cocina comedor reacondicionado puesta a punto Home Staging" /></a>
     				<img
     				src="./views/default/img/cocina_reformada_comedor_home_staging.png" class="foto img_movil"
-    				title="Cocina reformada comedor Home Staging" alt="Cocina reformada comedor Home Staging" />
+    				title="Cocina comedor reacondicionado puesta a punto Home Staging" alt="Cocina comedor reacondicionado puesta a punto Home Staging" />
 		</div>
 
 		<div class="hijo-flex">
@@ -40,12 +40,12 @@ echo '
 
 		<div class="hijo-flex">
 			<a class="fancybox" rel="group"
-    				href="./views/default/img/habitacion_adolescentes_reformada_home_staging.png" title="Habitación adolescentes reformada Home Staging"><img
+    				href="./views/default/img/habitacion_adolescentes_reformada_home_staging.png" title="Habitación reacondicionada puesta a punto Home Staging"><img
     				src="./views/default/img/habitacion_adolescentes_reformada_home_staging.png" class="foto img_ordenador"
-    				title="Habitación adolescentes reformada Home Staging" alt="Habitación adolescentes reformada Home Staging" /></a>
+    				title="Habitación reacondicionada puesta a punto Home Staging" alt="Habitación reacondicionada puesta a punto Home Staging" /></a>
     				<img
     				src="./views/default/img/habitacion_adolescentes_reformada_home_staging.png" class="foto img_movil"
-    				title="Habitación adolescentes reformada Home Staging" alt="Habitación adolescentes reformada Home Staging" />
+    				title="Habitación reacondicionada puesta a punto Home Staging" alt="Habitación reacondicionada puesta a punto Home Staging" />
 		</div>
 
 		<div class="hijo-flex">
@@ -60,22 +60,22 @@ echo '
 
 		<div class="hijo-flex">
 			<a class="fancybox" rel="group"
-    				href="./views/default/img/habitacion_reformada_decoracion_home_staging.png" title="Habitación reformada decoración Home Staging"><img
+    				href="./views/default/img/habitacion_reformada_decoracion_home_staging.png" title="Dormitorio radiador reacondicionado decoración puesta a punto Home Staging"><img
     				src="./views/default/img/habitacion_reformada_decoracion_home_staging.png" class="foto img_ordenador"
-    				title="Habitación reformada decoración Home Staging" alt="Habitación reformada decoración Home Staging" /></a>
+    				title="Dormitorio radiador reacondicionado decoración puesta a punto Home Staging" alt="Dormitorio radiador reacondicionado decoración puesta a punto Home Staging" /></a>
     				<img
     				src="./views/default/img/habitacion_reformada_decoracion_home_staging.png" class="foto img_movil"
-    				title="Habitación reformada decoración Home Staging" alt="Habitación reformada decoración Home Staging" />
+    				title="Dormitorio radiador reacondicionado decoración puesta a punto Home Staging" alt="Dormitorio radiador reacondicionado decoración puesta a punto Home Staging" />
 		</div>
 
 		<div class="hijo-flex">
 			<a class="fancybox" rel="group"
-    				href="./views/default/img/pasillo_reformado_decoracion_home_staging.png" title="Pasillo reformado decoración Home Staging"><img
+    				href="./views/default/img/pasillo_reformado_decoracion_home_staging.png" title="Pasillo decoración Home Staging"><img
     				src="./views/default/img/pasillo_reformado_decoracion_home_staging.png" class="foto img_ordenador"
-    				title="Pasillo reformado decoración Home Staging" alt="Pasillo reformado decoración Home Staging" /></a>
+    				title="Pasillo decoración Home Staging" alt="Pasillo decoración Home Staging" /></a>
     				<img
     				src="./views/default/img/pasillo_reformado_decoracion_home_staging.png" class="foto img_movil"
-    				title="Pasillo reformado decoración Home Staging" alt="Pasillo reformado decoración Home Staging" />
+    				title="Pasillo decoración Home Staging" alt="Pasillo decoración Home Staging" />
 		</div>
 
 		<div class="hijo-flex">

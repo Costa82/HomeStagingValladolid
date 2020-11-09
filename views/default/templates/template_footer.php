@@ -15,7 +15,7 @@
 		<ul>
 			<li id="direccion" class="ordenador">Calle Turquesa, 12. 47012 Valladolid</li>
 			<li id="telefono">623 11 62 40</li>
-            <li id="correo"><a href="mailto:hola@valladolidhomestaging.es"
+            <li id="correo"><a href="#ancla_contacto"
 			title="Contactar">hola@valladolidhomestaging.es</a></li>
 			<li id="declaracionCookies"><a href="declaracion-cookies" >Declaración de Cookies</a></li>
 		</ul>
