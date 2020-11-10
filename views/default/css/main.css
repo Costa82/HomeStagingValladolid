@@ -145,11 +145,11 @@ nav>#lista_principal_index {
 	padding-bottom: 10px;
 }
 
-#fotos,#contacto,#servicios,#homestaging,#blog {
+#fotos,#contacto,#servicios,#homestaging,#blog,#inicio_menuNav {
 	display: none;
 }
 
-#fotos2 a:hover,#contacto2 a:hover,#servicios2 a:hover,#homestaging2 a:hover,#blog2 a:hover
+#fotos2 a:hover,#contacto2 a:hover,#servicios2 a:hover,#homestaging2 a:hover,#blog2 a:hover,#inicio2 a:hover
 	{
 	color: #5c4136;
 }
@@ -294,7 +294,7 @@ nav>ul>li#menu_moviles .fa {
 	opacity: 0.8;
 	padding: 0;
 	font-size: 18px;
-	width: 70%;
+	width: 75%;
 }
 
 h2.titulo1 {
@@ -505,6 +505,14 @@ img.img_movil {
 	font-size: 0;
 }
 
+.fancybox-nav span {
+	visibility: inherit;
+	padding: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
 /* Contacto */
 .contenedor_contacto h3 {
 	margin: 35px;
@@ -577,6 +585,20 @@ p.titulo_proteccion_datos {
 }
 
 .texto_legal_formulario a:hover {
+	color: #5c4136;
+}
+
+.formulario input#condiciones {
+	margin-left: 0;
+	width: 0;
+	min-width: 20px;
+}
+
+.condiciones a {
+	color: #7abfc4;
+}
+
+.condiciones a:hover {
 	color: #5c4136;
 }
 
@@ -999,12 +1021,6 @@ img.logo_blanco {
 
 /* Para resoluciones a partir de 880px */
 @media only screen and (min-width: 880px) {
-	.footerPrincipal ul {
-		font-size: 18px;
-	}
-	.footerPrincipal h3 {
-		font-size: 20px;
-	}
 	h1 {
 		margin-top: 50px;
 	}
@@ -1012,6 +1028,12 @@ img.logo_blanco {
 
 /* Para resoluciones a partir de 1000px */
 @media only screen and (min-width: 1000px) {
+	.footerPrincipal ul {
+		font-size: 18px;
+	}
+	.footerPrincipal h3 {
+		font-size: 20px;
+	}
 	.galeria .hijo-flex {
 		width: 33%;
 	}
@@ -1054,7 +1076,7 @@ img.logo_blanco {
 	nav>ul>li#menu_moviles {
 		display: none;
 	}
-	#fotos,#contacto,#servicios,#homestaging,#blog {
+	#fotos,#contacto,#servicios,#homestaging,#blog,#inicio_menuNav {
 		display: block;
 		padding: 40px 20px;
 	}

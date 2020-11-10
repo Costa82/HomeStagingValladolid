@@ -18,6 +18,8 @@
             <li id="correo"><a href="#ancla_contacto"
 			title="Contactar">hola@valladolidhomestaging.es</a></li>
 			<li id="declaracionCookies"><a href="declaracion-cookies" >Declaración de Cookies</a></li>
+			<li id="proteccionDatos"><a href="politica-privacidad-y-proteccion-de-datos" >Política de privacidad y Protección de datos</a></li>
+			<li id="avisoLegal"><a href="aviso-legal" >Aviso Legal</a></li>
 		</ul>
 		
 		<div class="redes ordenador">

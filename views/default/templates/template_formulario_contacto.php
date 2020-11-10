@@ -7,7 +7,7 @@ echo '
 	
 	<h4>PARTICULAR O PROFESIONAL DEL SECTOR INMOBILIARIO: CONTESTAREMOS TODAS TUS PREGUNTAS Y QUEDAREMOS PARA VISITAR TU(S) INMUEBLE(S)</h4>
 
-	<form action="formulario_contacto" method="post" class="formularioRegistro"">
+	<form action="formulario_contacto" method="post" class="formularioRegistro" onSubmit="return validar();">
 		<div class="form">
 			<p><label>Nombre (Requerido)</label></p> <input type="text" name="nombre" class="nombre"  required="required" />
 		</div>
@@ -21,8 +21,13 @@ echo '
 			<p><label>Consulta (Requerido)</label></p>
 			<textarea rows="8" cols="50" name="consulta" class="consulta" required="required"></textarea>
 		</div>
-
-		</br>
+		
+		<div class="form condiciones">
+			<p><input type="checkbox" name="condiciones" id="condiciones"><label>Acepta
+				la <a href="politica-privacidad-y-proteccion-de-datos"
+				title="Aviso Legal"><i>Política de privacidad y Protección de datos</i>
+			</a></label></p>
+		</div>
 
 		<div class="texto_legal_formulario">
 			<p class="titulo_proteccion_datos">

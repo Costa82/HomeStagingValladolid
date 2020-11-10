@@ -18,6 +18,7 @@ class ControladorPaginas
 		} else {
 			$params['error'] = 0;
 		}
+			
 		require './views/inicio.php';
 	}
 	
@@ -79,5 +80,35 @@ class ControladorPaginas
 		}
 		
 		require './views/declaracion_cookies.php';
+	}
+	
+	/**
+	 * Método para cargar la página de politica de privacidad y proteccion de datos
+	 */
+	public function politica_privacidad_y_proteccion_de_datos()
+	{
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		
+		require './views/politica_privacidad_y_proteccion_de_datos.php';
+	}
+	
+	/**
+	 * Método para cargar la página de aviso legal
+	 */
+	public function aviso_legal()
+	{
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		
+		require './views/aviso_legal.php';
 	}
 }

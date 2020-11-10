@@ -32,6 +32,16 @@ $map = array(
         'action' => 'declaracion_cookies',
         'privada' => false
     ),
+    'politica_privacidad_y_proteccion_de_datos' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'politica_privacidad_y_proteccion_de_datos',
+        'privada' => false
+    ),
+    'aviso_legal' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'aviso_legal',
+        'privada' => false
+    ),
     
     // Páginas de error
     'page404' => array(
@@ -56,13 +66,14 @@ $map = array(
 // Parseo de la ruta
 // Comprobamos si hay alguna accion que ejecutar, sino ejecutamos inicio
 if (isset($_GET['action'])) {
-    
+	
     // Hacemos un replace para las urls amigables con '-'
     $action_normalizado = str_replace("-", "_", $_GET['action']);
     
     // Comprobamos que la accion existe en el mapa del enrutamiento, sino mostramos error 404
     if (isset($map[$action_normalizado])) {
         $action = $action_normalizado;
+        
     } else {
 		$action = 'page404';
     }
