@@ -18,7 +18,6 @@
 		title='Home staging vender alquilar rápido mejor precio'
 		alt='Home staging vender alquilar rápido mejor precio'
 		class='img_articulo_blog' /></a>
-		<p>03 de noviembre de 2020</p>
 	</div>
 
 </div>

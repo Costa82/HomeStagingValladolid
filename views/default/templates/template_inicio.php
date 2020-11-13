@@ -7,6 +7,15 @@
 
 <html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZWZK4L26M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1ZWZK4L26M');
+</script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Content-Language" content="es" />
@@ -43,15 +52,13 @@
 <link href="icon-hires.png" rel="icon" sizes="192x192" />
 <link href="icon-normal.png" rel="icon" sizes="128x128" />
 
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a1535c15-7aa3-4be0-ae76-0a11640e06c0" data-blockingmode="auto" type="text/javascript"></script>
-
 <script src="./views/default/jquery/jquery-3.1.1.min.js"></script>
 <script src="./views/default/jquery/zoom_fancybox.js"></script>
 
 <!-- Add jQuery library -->
 <script type="text/javascript"
 	src="https://code.jquery.com/jquery-latest.min.js"></script>
-	
+
 <!-- Add fancyBox -->
 <script>
     var rutacss2 = "./views/default/fancybox/source/jquery.fancybox.css?v=2.1.7?" + Math.random();
@@ -116,6 +123,11 @@
 </head>
 
 <body>
+
+
+	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js"
+		data-cbid="a1535c15-7aa3-4be0-ae76-0a11640e06c0"
+		data-blockingmode="auto" type="text/javascript"></script>
 
 	<header>
 		<div id='ancla_inicio'></div>

@@ -1,5 +1,8 @@
 <?php
 echo '
+<div class="ancla">
+	<hr color="silver" size=1 width="200">
+</div>
 <div class="bloque_texto nosotros">
 	<h3>
 		<strong>¿QUIÉNES SOMOS?</strong>

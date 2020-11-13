@@ -1,6 +1,9 @@
 <?php
 echo '
 <div id="ancla_contacto"></div>
+<div class="ancla">
+	<hr color="silver" size=1 width="200">
+</div>
 <div class="bloque_texto formulario">
 
 	<h3>ENVÍANOS UN MENSAJE</h3>
@@ -39,7 +42,7 @@ echo '
 				a los ficheros titularidad de Valladolid Home Staging, y serán tratados con la finalidad de contactarte para responder a 
 				peticiones de información, envío de presupuestos y otras finalidades relacionadas con nuestra actividad. 
 				Puedes ejercer, en cualquier momento, los derechos de acceso, rectificación, cancelación y oposición de tus datos 
-				de carácter personal mediante correo electrónico dirigido a <a href="hola@valladolidhomestaging.es" title="Contactar">hola@valladolidhomestaging.es</a>.
+				de carácter personal mediante correo electrónico dirigido a hola@valladolidhomestaging.es.
 			</p>
 		</div>
 

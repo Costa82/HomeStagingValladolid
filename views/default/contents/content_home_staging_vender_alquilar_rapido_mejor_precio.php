@@ -130,7 +130,7 @@
 		<p>Si estás intentando vender o alquilar una casa, no lo dudes, ¡ponte
 			en contacto con nosotros!</p>
 		</br>
-		<p><a href="mailto:hola@valladolidhomestaging.es"
+		<p><a href="inicio#ancla_contacto"
 			title="Contactar">hola@valladolidhomestaging.es</a></p>
 		<p>623116240</p>
 		<p>VLL HomeStaging</p>

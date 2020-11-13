@@ -1,6 +1,9 @@
 <?php
 echo '
 <div id="ancla_homestaging"></div>
+<div class="ancla">
+	<hr color="silver" size=1 width="200">
+</div>
 <div class="bloque_texto homestaging">
 	<h3>
 		<strong>LA PUESTA A PUNTO PARA VENDER TU CASA</strong>

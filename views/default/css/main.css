@@ -111,6 +111,15 @@ p,span {
 	background-color: #5c4136;
 }
 
+.ancla {
+	height: 50px;
+	text-align: center;
+}
+
+.ancla hr {
+	margin-top: 50px;
+}
+
 /* HEADER
 ========================================================================= */
 
@@ -143,6 +152,14 @@ nav>#lista_principal_index {
 	z-index: 99;
 	font-size: 11px;
 	padding-bottom: 10px;
+}
+
+.lista_principal_scroll {
+	opacity: 1;
+}
+
+.lista_principal_scroll:hover {
+	opacity: 1;
 }
 
 #fotos,#contacto,#servicios,#homestaging,#blog,#inicio_menuNav {
@@ -399,7 +416,7 @@ span.span_titulo3 {
 
 .bloque_texto {
 	width: 80%;
-	margin: 30px auto;
+	margin: 0 auto;
 }
 
 .bloque_texto h3 {
@@ -779,6 +796,7 @@ p.pieFoto {
 /* FOOTER
 ========================================================================= */
 footer {
+	margin-top: 50px;
 	background-color: #5c4136;
 	width: 100%;
 	text-align: center;
@@ -945,7 +963,6 @@ img.logo_blanco {
 		font-size: 40px;
 	}
 	.bloque_texto {
-		margin-top: 25px;
 		width: 80%;
 	}
 	.galeria {
@@ -1060,6 +1077,12 @@ img.logo_blanco {
 
 /* Para resoluciones a partir de 1250px */
 @media only screen and (min-width: 1250px) {
+	.ancla {
+		height: 60px;
+	}
+	.ancla hr {
+		margin-top: 60px;	
+	}
 	.btn-prev,.btn-next {
 		top: 50%;
 	}
@@ -1067,7 +1090,6 @@ img.logo_blanco {
 		font-size: 20px;
 	}
 	.bloque_texto {
-		margin: 50px auto;
 		width: 70%;
 	}
 	.galeria {
