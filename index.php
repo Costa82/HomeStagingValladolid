@@ -56,6 +56,11 @@ $map = array(
         'action' => 'formulario_contacto',
         'privada' => false
     ),
+    'formulario_newsletter' => array(
+        'controller' => 'ControladorFormularios',
+        'action' => 'formulario_newsletter',
+        'privada' => false
+    ),
     'respuesta_envio' => array(
         'controller' => 'ControladorFormularios',
         'action' => 'respuesta_envio',
