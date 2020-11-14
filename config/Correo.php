@@ -70,7 +70,9 @@ class Correo
         $contenidoHTML .= "<h2 style='color: #7abfc4'>¡Hola " . $nombre . "!</h2>";
         $contenidoHTML .= "<p>Muchas gracias por contactar con nosotros, en breve nos pondremos en contacto contigo.
         				   </br></br>Un saludo!!</p>
-                           </br><strong>Teléfono de contacto:</strong> 623 11 62 40
+                           </br><strong>Teléfono:</strong> 623 11 62 40
+                           </br><strong>Correo:</strong> hola@valladolidhomestaging.es
+                           </br><strong>Web:</strong> https://www.valladolidhomestaging.es
 						   </br>
 											</br><a href='https://www.valladolidhomestaging.es'><img src='" . $imagen . "' height='130'/></a>
 											</br><p style='font-size: 10px;'><strong>AVISO SEGURIDAD</strong>
@@ -265,7 +267,9 @@ class Correo
         $contenidoHTML .= "<h2 style='color: #7abfc4'>¡Hola " . $nombre . "!</h2>";
         $contenidoHTML .= "<p>Muchas gracias por apuntarte a la newsletter, en breve recibirás noticias nuestras.
         				   </br></br>Un saludo!!</p>
-                           </br><strong>Teléfono de contacto:</strong> 623 11 62 40
+                           </br><strong>Teléfono:</strong> 623 11 62 40
+                           </br><strong>Correo:</strong> hola@valladolidhomestaging.es
+                           </br><strong>Web:</strong> https://www.valladolidhomestaging.es
 						   </br>
 											</br><a href='https://www.valladolidhomestaging.es'><img src='" . $imagen . "' height='130'/></a>
 											</br><p style='font-size: 10px;'><strong>AVISO SEGURIDAD</strong>
