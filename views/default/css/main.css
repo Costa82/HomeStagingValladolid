@@ -35,6 +35,14 @@ input:focus,input.form-control:focus {
 	-webkit-box-shadow: none;
 }
 
+.letra_grande {
+	font-size: 20px;
+}
+
+.color_corporativo {
+	color: #7abfc4;
+}
+
 /* BASE
 ========================================================================= */
 html {
@@ -714,7 +722,20 @@ p.titulo_entrada_blog {
 
 .entradas_blog {
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
 	margin-bottom: 100px;
+}
+
+.entrada_blog {
+	margin-top: 30px;	
+	padding: 0 23px;
+	width: 90%;
+	max-width: 500px;
+	flex: 1 1 auto;
 }
 
 .fechaArticulo p {
@@ -759,6 +780,7 @@ h3.titulo_articulo {
 .img_articulo_blog {
 	width: 90%;
 	max-width: 350px;
+	margin-top: 25px;
 }
 
 .img_articulo_secundaria {
@@ -791,6 +813,10 @@ p.pieFoto {
 
 .explicacion_articulo a:hover {
 	color: #5c4136;
+}
+
+.explicacion_articulo p.centrado {
+	text-align: center;
 }
 
 /* FOOTER
@@ -871,13 +897,6 @@ img.logo_blanco {
 
 /*RESPONSIVE
 ========================================================================= */
-/* Para resoluciones a partir de 750px de alto */
-@media only screen and (min-height: 750px) {
-	.footer_blog {
-		position: fixed;
-		bottom: 0;
-	}
-}
 
 /* Para resoluciones a partir de 600px */
 @media only screen and (min-width: 600px) {
@@ -1033,6 +1052,9 @@ img.logo_blanco {
 	}
 	footer .fab {
 		font-size: 20px;
+	}
+	.letra_grande {
+		font-size: 25px;
 	}
 }
 

@@ -66,6 +66,21 @@ class ControladorPaginas
 		
 		require './views/home_staging_vender_alquilar_rapido_mejor_precio.php';
 	}
+	
+	/**
+	 * Método para cargar la página del por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa
+	 */
+	public function por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa()
+	{
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		
+		require './views/por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa.php';
+	}
 
 	/**
 	 * Método para cargar la página de la declaración de cookies

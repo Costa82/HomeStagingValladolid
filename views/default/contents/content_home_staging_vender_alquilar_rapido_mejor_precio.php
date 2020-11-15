@@ -8,10 +8,6 @@
 	<h2 class='titulo_articulo'>HOME STAGING: ¿Qué es y cómo lo aplicamos
 		en VLL Home Staging?</h2>
 
-	<div class='fechaArticulo'>
-		<p>03 de noviembre de 2020</p>
-	</div>
-
 	<img
 		src='./views/default/img/For_Sale_Staging.jpeg'
 		title='Home staging vender alquilar rápido mejor precio'

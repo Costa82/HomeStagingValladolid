@@ -27,6 +27,11 @@ $map = array(
         'action' => 'home_staging_vender_alquilar_rapido_mejor_precio',
         'privada' => false
     ),
+    'por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa',
+        'privada' => false
+    ),
     'declaracion_cookies' => array(
         'controller' => 'ControladorPaginas',
         'action' => 'declaracion_cookies',
