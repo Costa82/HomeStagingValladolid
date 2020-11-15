@@ -281,10 +281,6 @@
 			<strong><i>mínima inversión, máximo retorno</i> </strong>
 		</p>
 		</br>
-		<p class="centrado">
-			<strong>mínima inversión, máximo retorno</strong>
-		</p>
-		</br>
 		<p>Una cinta de persiana rota, el interruptor de la luz averiado o
 			caído o un grifo que gotea no hará que alguien que estaba decidido a
 			comprar deje de hacerlo, pero sí que lo aproveche para negociar una
