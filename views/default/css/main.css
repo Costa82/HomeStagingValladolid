@@ -1,8 +1,8 @@
 @charset "ISO-8859-1";
 
 @font-face {
-	font-family: Adobe Heiti Std R;
-	src: url(../fonts/adobeheitistd-regular.otf);
+	font-family: Roboto-Thin;
+	src: url(../fonts/Roboto-Thin.ttf);
 }
 
 h1,h2,h3,h4,p,ul,body {
@@ -11,7 +11,7 @@ h1,h2,h3,h4,p,ul,body {
 }
 
 h1,h2,h3,h4 {
-	font-family: 'Catamaran', sans-serif;
+	font-family: Roboto-Thin, sans-serif;
 	color: #5c4136;
 }
 
@@ -50,7 +50,7 @@ html {
 	overflow-x: hidden;
 	font-size: 20px;
 	position: relative;
-	font-family: 'Catamaran', sans-serif;
+	font-family: Roboto-Thin, sans-serif;
 }
 
 body,html {
@@ -99,7 +99,7 @@ p,span {
 .boton {
 	text-align: center;
 	top: 550px;
-	font-family: 'Catamaran', sans-serif;
+	font-family: Roboto-Thin, sans-serif;
 	font-size: 20px;
 	border: none;
 	border-radius: 5px;
@@ -148,7 +148,7 @@ nav {
 nav>ul {
 	display: flex;
 	justify-content: space-around;
-	font-family: 'Catamaran', sans-serif;
+	font-family: Roboto-Thin, sans-serif;
 	position: fixed;
 	background-color: white;
 	margin-top: -20px;
@@ -199,7 +199,7 @@ nav>ul>li>a:hover,nav>ul>li>a:hover>.fa {
 }
 
 #inicio img {
-	height: 100px;
+	height: 90px;
 	margin-top: -10px;
 	margin-left: 10px;
 }
@@ -329,12 +329,12 @@ h2.titulo1 {
 
 h2.titulo2 {
 	color: white;
-	top: 160px;
+	top: 153px;
 }
 
 h2.titulo3 {
 	color: #5c4136;
-	top: 201px;
+	top: 187px;
 }
 
 span {
@@ -407,7 +407,7 @@ span.span_titulo3 {
 	left: 0;
 	right: 0;
 	top: 275px;
-	font-family: 'Catamaran', sans-serif;
+	font-family: Roboto-Thin, sans-serif;
 	font-size: 12px;
 	-webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
@@ -581,7 +581,7 @@ img.img_movil {
 	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0);
 	-webkit-transition: box-shadow 0.3s;
 	transition: box-shadow 0.3s;
-	font-family: 'Catamaran', sans-serif;
+	font-family: Roboto-Thin, sans-serif;
 }
 
 .formulario textarea {
@@ -594,6 +594,10 @@ img.img_movil {
 
 .boton_formulario {
 	margin-top: 25px;
+}
+
+.texto_legal_formulario {
+	margin-top: 20px;	
 }
 
 .texto_legal_formulario p {
@@ -1003,13 +1007,14 @@ img.logo_blanco {
 		top: 190px;
 	}
 	h2.titulo2 {
-		top: 265px;
+		top: 244px;
 	}
 	h2.titulo3 {
-		top: 340px;
+		top: 298px;
 	}
 	span.span_titulo1,span.span_titulo2,span.span_titulo3 {
 		font-size: 25px;
+		padding: 12px 35px;
 	}
 	.boton_saberMas {
 		top: 430px;
@@ -1029,7 +1034,7 @@ img.logo_blanco {
 		padding-top: 15px;
 		font-size: 15px;
 	}
-	.explicacion p,span {
+	.explicacion p {
 		padding-top: 25px;
 	}
 	#infobox3 p {
@@ -1145,13 +1150,14 @@ img.logo_blanco {
 		top: 230px;
 	}
 	h2.titulo2 {
-		top: 329px;
+		top: 311px;
 	}
 	h2.titulo3 {
-		top: 428px;
+		top: 392px;
 	}
 	span.span_titulo1,span.span_titulo2,span.span_titulo3 {
 		font-size: 40px;
+		padding: 16.5px 35px;
 	}
 	.boton_saberMas {
 		top: 555px;
@@ -1175,18 +1181,6 @@ img.logo_blanco {
 	}
 	.slider__section {
 		height: 800px;
-	}
-	h2.titulo1 {
-		top: 250px;
-	}
-	h2.titulo2 {
-		top: 349px;
-	}
-	h2.titulo3 {
-		top: 448px;
-	}
-	span.span_titulo1,span.span_titulo2,span.span_titulo3 {
-		font-size: 40px;
 	}
 	.boton_saberMas {
 		top: 600px;
