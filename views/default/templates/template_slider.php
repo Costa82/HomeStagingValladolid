@@ -25,7 +25,7 @@ echo '
 				<button class="boton_saberMas boton"><a href="blog">SABER MÁS</a></button>
 			</div>
 			<h2 class="titulo1"><span class="span_titulo1">YA PUEDES LEER</span></h2>
-			<h2 class="titulo2"><span class="span_titulo2">NUESTRA PRIMERA</span></h2>
+			<h2 class="titulo2"><span class="span_titulo2">NUESTRA NUEVA</span></h2>
 			<h2 class="titulo3"><span class="span_titulo3">ENTRADA DE BLOG</span></h2>
 		</section>
 	</div>
