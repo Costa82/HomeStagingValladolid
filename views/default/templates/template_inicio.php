@@ -21,15 +21,9 @@
 <meta http-equiv="Content-Language" content="es" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description"
-	content="Ponemos a punto tu casa para vender o alquilar en el menor tiempo y al mejor precio." />
+	content="Vende antes y al mejor precio. Ponemos a punto tu casa. Pintamos, lacamos puertas y armarios, restauramos, 
+	reparamos desperfectos y amueblamos. Fotografía profesional y financiación 100% hasta la venta. Valoración sin compromiso." />
 <meta name="robots" content="NOODP">
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Home Staging Valladolid" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="" />
-<meta property="og:image:width" content="681" />
-<meta property="og:image:height" content="494" />
-<meta property="og:url" content="" />
 <title>Valladolid Home Staging</title>
 
 <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->

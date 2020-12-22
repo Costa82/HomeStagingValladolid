@@ -35,5 +35,31 @@ echo '
 				estancias.</p>
 
 		</div>
+		
+		<div class="hijo-flex">
+
+			<h4>
+				<i class="fas fa-user"></i> PARTICULARES
+			</h4>
+			<p>-Vender antes y a mejor precio.</p>
+			<p>-Home Staging Integral.</p>
+			<p>-Nos encargamos de todo.</p>
+			<p>-Fotografía profesional.</p>
+			<p>-Financiado al 100% hasta la venta.</p>
+
+		</div>
+		
+		<div class="hijo-flex">
+
+			<h4>
+				<i class="fas fa-sign"></i> INMOBILIARIAS
+			</h4>
+			<p>-Incremento de la cuota de mercado.</p>
+			<p>-Mejora de marca y reconocimiento en el mercado.</p>
+			<p>-Aumento de beneficios.</p>
+			<p>-Mejora del embudo de conversión.</p>
+			<p>-Captación nuevos clientes.</p>
+
+		</div>
 	</div>
 </div>';
