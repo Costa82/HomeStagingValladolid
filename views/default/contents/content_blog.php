@@ -11,6 +11,15 @@
 <div class="entradas_blog">
 
 	<div class="entrada_blog">
+		<a href='el-embudo-de-conversion-en-el-home-staging'><p class="titulo_entrada_blog"><b>El embudo de conversión en el Home Staging</b></p>
+		<img
+		src='./views/default/img/firma_venta.jpg'
+		title='El embudo de conversión en el Home Staging'
+		alt='El embudo de conversión en el Home Staging'
+		class='img_articulo_blog' /></a>
+	</div>
+
+	<div class="entrada_blog">
 		<a href='por-que-no-consigo-visitas-para-vender-o-alquilar-mi-casa'><p class="titulo_entrada_blog"><b>¿Por qué no consigo visitas para vender o alquilar mi casa?</b></p>
 		<img
 		src='./views/default/img/por_que_no_vendo_mi_casa.jpg'
@@ -28,5 +37,5 @@
 		alt='Home staging vender alquilar rápido mejor precio'
 		class='img_articulo_blog' /></a>
 	</div>
-
+	
 </div>

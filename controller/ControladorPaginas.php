@@ -81,6 +81,21 @@ class ControladorPaginas
 		
 		require './views/por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa.php';
 	}
+	
+	/**
+	 * Método para cargar la página del el_embudo_de_conversion_en_el_home_staging
+	 */
+	public function el_embudo_de_conversion_en_el_home_staging()
+	{
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		
+		require './views/el_embudo_de_conversion_en_el_home_staging.php';
+	}
 
 	/**
 	 * Método para cargar la página de la declaración de cookies

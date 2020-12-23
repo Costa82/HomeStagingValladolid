@@ -707,6 +707,11 @@ p.titulo_proteccion_datos {
 
 /* BLOG
    ========================================================================= */
+.articulo {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
 .explicacion_blog {
 	width: 80%;
 	margin: 0 auto;
@@ -718,6 +723,11 @@ p.titulo_proteccion_datos {
 	margin: 0 auto;
 	margin-bottom: 50px;
 	padding-top: 30px;
+}
+
+.articulo .explicacion_articulo img.img_texto {
+	float: left;
+	padding-right: 15px;
 }
 
 p.titulo_entrada_blog {
@@ -795,11 +805,6 @@ h3.titulo_articulo {
 p.pieFoto {
 	color: grey;
 	font-size: 12px;
-}
-
-.articulo {
-	text-align: center;
-	margin-bottom: 30px;
 }
 
 .articulo h2 {
@@ -1031,7 +1036,7 @@ img.logo_blanco {
 	}
 	p {
 		letter-spacing: 1.2px;
-		font-weight: 600;
+		font-weight: 500;
 	}
 	.presentacion h3 {
 		margin-bottom: 20px;

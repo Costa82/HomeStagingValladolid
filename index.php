@@ -22,14 +22,19 @@ $map = array(
         'action' => 'blog',
         'privada' => false
     ),
+    'por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa',
+        'privada' => false
+    ),
     'home_staging_vender_alquilar_rapido_mejor_precio' => array(
         'controller' => 'ControladorPaginas',
         'action' => 'home_staging_vender_alquilar_rapido_mejor_precio',
         'privada' => false
     ),
-    'por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa' => array(
+    'el_embudo_de_conversion_en_el_home_staging' => array(
         'controller' => 'ControladorPaginas',
-        'action' => 'por_que_no_consigo_visitas_para_vender_o_alquilar_mi_casa',
+        'action' => 'el_embudo_de_conversion_en_el_home_staging',
         'privada' => false
     ),
     'declaracion_cookies' => array(
