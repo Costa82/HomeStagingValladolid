@@ -65,8 +65,8 @@
 			. Por eso, diremos que el objetivo es la oferta. Ofertas puede haber
 			muchas y ventas solo una.
 		</p>
-		</br>
-		<img class="img_texto" src="./views/default/img/grafico_blog.png" alt="Gráfico piramidal">
+		</br> <img class="img_texto"
+			src="./views/default/img/grafico_blog.png" alt="Gráfico piramidal">
 		<p>Como quieres vender tu casa, publicas el anuncio. Al día siguiente
 			todas las personas que tienen activadas alertas para esa zona, lo
 			reciben en su correo. Y en los días siguientes todas las personas que
@@ -233,7 +233,13 @@
 		<p>623116240</p>
 		<p>VLL HomeStaging</p>
 		</br>
-		<p>Síguenos en Instagram o en Faceboook.</p>
+		<p>
+			Síguenos en <a href="https://www.instagram.com/vllhomestaging/"
+				title="Instagram" target="_blank" rel="noopener">Instagram</a> o en
+			<a href="https://www.facebook.com/VLLHomeStaging" title="Facebook"
+				target="_blank" rel="noopener">Faceboook.</a>
+		</p>
+
 		</br> </br>
 		<p>¡Estate atento al siguiente post, en el que te contaremos más cosas
 			interesantes para que vendas tu casa pronto y al mejor precio!</p>

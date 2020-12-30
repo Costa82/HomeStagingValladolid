@@ -5,13 +5,18 @@
 	src: url(../fonts/Roboto-Thin.ttf);
 }
 
+@font-face {
+	font-family: MyriadPro-Light;
+	src: url(../fonts/MyriadPro-Light.otf);
+}
+
 h1,h2,h3,h4,p,ul,body {
 	margin: 0;
 	padding: 0;
 }
 
 h1,h2,h3,h4 {
-	font-family: Roboto-Thin, sans-serif;
+	font-family: MyriadPro-Light, sans-serif;
 	color: #5c4136;
 }
 
@@ -50,7 +55,7 @@ html {
 	overflow-x: hidden;
 	font-size: 20px;
 	position: relative;
-	font-family: Roboto-Thin, sans-serif;
+	font-family: MyriadPro-Light, sans-serif;
 }
 
 body,html {
@@ -100,7 +105,7 @@ p,span {
 .boton {
 	text-align: center;
 	top: 550px;
-	font-family: Roboto-Thin, sans-serif;
+	font-family: MyriadPro-Light, sans-serif;
 	font-size: 20px;
 	border: none;
 	border-radius: 5px;
@@ -149,7 +154,7 @@ nav {
 nav>ul {
 	display: flex;
 	justify-content: space-around;
-	font-family: Roboto-Thin, sans-serif;
+	font-family: MyriadPro-Light, sans-serif;
 	position: fixed;
 	background-color: white;
 	margin-top: -20px;
@@ -408,7 +413,7 @@ span.span_titulo3 {
 	left: 0;
 	right: 0;
 	top: 275px;
-	font-family: Roboto-Thin, sans-serif;
+	font-family: MyriadPro-Light, sans-serif;
 	font-size: 12px;
 	-webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
@@ -583,7 +588,7 @@ img.img_movil {
 	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0);
 	-webkit-transition: box-shadow 0.3s;
 	transition: box-shadow 0.3s;
-	font-family: Roboto-Thin, sans-serif;
+	font-family: MyriadPro-Light, sans-serif;
 }
 
 .formulario textarea {
@@ -1035,7 +1040,6 @@ img.logo_blanco {
 		font-size: 20px;
 	}
 	p {
-		letter-spacing: 1.2px;
 		font-weight: 500;
 	}
 	.presentacion h3 {
