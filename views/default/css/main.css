@@ -134,6 +134,19 @@ p,span {
 	margin-top: 50px;
 }
 
+img.ancho_pequeño {
+	width: 25%;
+	min-width: 150px;
+}
+
+img.ancho_mediano {
+	width: 50%;
+}
+
+img.ancho_grande {
+	width: 75%;
+}
+
 /* HEADER
 ========================================================================= */
 
@@ -733,6 +746,20 @@ p.titulo_proteccion_datos {
 .articulo .explicacion_articulo img.img_texto {
 	float: left;
 	padding-right: 15px;
+}
+
+.articulo .explicacion_articulo .img_texto_no {
+	text-align: left;
+}
+
+.articulo .explicacion_articulo .img_texto_no img {
+	width: 25%;
+	min-width: 100px;
+	max-width: 300px;
+}
+
+.articulo .explicacion_articulo td {
+	padding: 0 10px;
 }
 
 p.titulo_entrada_blog {

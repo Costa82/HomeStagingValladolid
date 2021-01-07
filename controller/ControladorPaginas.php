@@ -96,6 +96,21 @@ class ControladorPaginas
 		
 		require './views/el_embudo_de_conversion_en_el_home_staging.php';
 	}
+	
+	/**
+	 * Método para cargar la página del como_elaborar_un_buen_anuncio_en_los_portales_inmobiliarios
+	 */
+	public function como_elaborar_un_buen_anuncio_en_los_portales_inmobiliarios()
+	{
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		
+		require './views/como_elaborar_un_buen_anuncio_en_los_portales_inmobiliarios.php';
+	}
 
 	/**
 	 * Método para cargar la página de la declaración de cookies

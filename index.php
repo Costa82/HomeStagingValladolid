@@ -37,6 +37,11 @@ $map = array(
         'action' => 'el_embudo_de_conversion_en_el_home_staging',
         'privada' => false
     ),
+    'como_elaborar_un_buen_anuncio_en_los_portales_inmobiliarios' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'como_elaborar_un_buen_anuncio_en_los_portales_inmobiliarios',
+        'privada' => false
+    ),
     'declaracion_cookies' => array(
         'controller' => 'ControladorPaginas',
         'action' => 'declaracion_cookies',
