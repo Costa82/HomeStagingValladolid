@@ -85,46 +85,41 @@
 			<ins>Hay que seguir estos criterios básicos:</ins>
 		</p>
 		</br>
-		<p>- Todas las fotos en horizontal, aunque cueste.</p>
-		</br>
-		<p>- Líneas verticales deben ser paralelas con los márgenes izquierdo
-			y derecho de la foto. Puedes activar la rejilla de tu cámara, te
-			ayudará bastante. Es muy importante evitar que los muebles salgan
-			cortados. Medio armario, medio cabecero…</p>
-		</br>
-		<p>- ¡Aprovecha la luz! La natural y la artificial. Todas las luces
-			encendidas, y el reportaje en el horario en el que mejor iluminada
-			esté tu vivienda. Es tu casa, apuesto a que sabes cuáles son los
-			mejores 5 minutos de luz.</p>
-		</br>
-		<p>- ¡¡No usar flash!! Salvo que seas un profesional y sepas hacerlo.
-			Lo normal, si no lo eres son reflejos, destellos y zonas muy
-			iluminadas y oscuras en la misma imagen.</p>
-		</br>
-		<p>- Realiza las fotos de los planos generales desde la altura de los
-			ojos. Debes proyectar la vivienda como la verán tus potenciales
-			clientes. Y salvo que sean lubinas, besugos o cualquier otro animal
-			marino, olvídate de los objetivos ojo de pez. No muestran la realidad
-			del inmueble.</p>
-		</br>
-		<p>- Muy importante, ¡¡ la casa debe estar ordenada!!</p>
-		</br>
-		<p>
-			-
-			<ins>Seguir un guión</ins>
-			. De fuera hacia adentro para acabar con el detalle y en el orden en
-			que se haría la visita. Fachada, portal, ascensor, pasillo, puerta,
-			entrada, hall, etc. Los portales inmobiliarios te permiten ordenar
-			las fotos y presta mucha atención a la primera que pones, pues será
-			la que se muestre en miniatura en tu anuncio, tanto en los listados
-			como en las alertas que reciben los clientes por email. Por tanto,
-			<ins>la primera debe mostrar lo más destacable del inmueble</ins>
-			. El salón, un dormitorio, la librería, las vistas… lo que
-			consideres. Si además ese aspecto la hace única, como una terraza,
-			una chimenea o un salón inmenso de techos altos, mi consejo es que
-			sea la primera foto y también la última, para crear efecto recencia y
-			que nos recuerden por ello.
-		</p>
+		
+		<ul>
+			<li><p>Todas las fotos en horizontal, aunque cueste.</p></li>
+			<li><p>Líneas verticales deben ser paralelas con los márgenes izquierdo
+				y derecho de la foto. Puedes activar la rejilla de tu cámara, te
+				ayudará bastante. Es muy importante evitar que los muebles salgan
+				cortados. Medio armario, medio cabecero…</p></li>
+			<li><p>¡Aprovecha la luz! La natural y la artificial. Todas las luces
+				encendidas, y el reportaje en el horario en el que mejor iluminada
+				esté tu vivienda. Es tu casa, apuesto a que sabes cuáles son los
+				mejores 5 minutos de luz.</p></li>
+			<li><p>¡¡No usar flash!! Salvo que seas un profesional y sepas hacerlo.
+				Lo normal, si no lo eres son reflejos, destellos y zonas muy
+				iluminadas y oscuras en la misma imagen.</p></li>
+			<li><p>Realiza las fotos de los planos generales desde la altura de los
+				ojos. Debes proyectar la vivienda como la verán tus potenciales
+				clientes. Y salvo que sean lubinas, besugos o cualquier otro animal
+				marino, olvídate de los objetivos ojo de pez. No muestran la realidad
+				del inmueble.</p></li>
+			<li><p>Muy importante, ¡¡ la casa debe estar ordenada!!</p></li>
+			<li><p><ins>Seguir un guión</ins>
+				. De fuera hacia adentro para acabar con el detalle y en el orden en
+				que se haría la visita. Fachada, portal, ascensor, pasillo, puerta,
+				entrada, hall, etc. Los portales inmobiliarios te permiten ordenar
+				las fotos y presta mucha atención a la primera que pones, pues será
+				la que se muestre en miniatura en tu anuncio, tanto en los listados
+				como en las alertas que reciben los clientes por email. Por tanto,
+				<ins>la primera debe mostrar lo más destacable del inmueble</ins>
+				. El salón, un dormitorio, la librería, las vistas… lo que
+				consideres. Si además ese aspecto la hace única, como una terraza,
+				una chimenea o un salón inmenso de techos altos, mi consejo es que
+				sea la primera foto y también la última, para crear efecto recencia y
+				que nos recuerden por ello.
+			</p></li>
+		</ul>
 		</br>
 		<p>
 			<strong>¡¡¡Usa todas las fotos que te permiten poner!!!</strong>
@@ -248,12 +243,14 @@
 			por cada dependencia puedes hacer varias fotos, moviéndote por el
 			plano y en distintos ángulos (en esquinas opuestas).</p>
 		</br>
-		<p>- Plano general. Sale toda la habitación o gran parte de ella.</p>
-		</br>
-		<p>- Plano medio. En un salón, por ejemplo, un plano medio sería el
-			comedor y otro la zona de sofás.</p>
-		</br>
-		<p>- Primer plano detalle. La ventana, la terraza, la chimenea, etc.</p>
+		
+		<ul>
+			<li><p>Plano general. Sale toda la habitación o gran parte de ella.</p></li>
+			<li><p>Plano medio. En un salón, por ejemplo, un plano medio sería el
+				comedor y otro la zona de sofás.</p></li>
+			<li><p>Primer plano detalle. La ventana, la terraza, la chimenea, etc.</p></li>
+		</ul>
+		
 		</br>
 		<p>
 			A continuación,
@@ -264,64 +261,59 @@
 			<strong class="letra_grande">SALÓN</strong>
 		</p>
 		</br>
-		<p>- Fotografía de espaldas a la ventana para evitar contraluces.</p>
-		</br>
-		<p>- No fotografíes la parte trasera de sillones o sofás. Comen
-			espacio visual y restan amplitud.</p>
-		</br>
-		<p>- Pégate a las esquinas para alcanzar más ángulo. Si saliendo al
-			balcón ganas unos centímetros extra, ¡hazlo!</p>
-		</br>
-		<p>- Fotografía los radiadores y/o el aire acondicionado. Puede ser
-			dentro de la foto o como detalle. Las personas que buscan casa, se
-			suelen fijar en eso.</p>
-		</br>
-		<p>- Si el suelo es singular (parqué o hidráulico), puedes hacerle una
-			foto.</p>
+		<ul>
+			<li><p>Fotografía de espaldas a la ventana para evitar contraluces.</p></li>
+			<li><p>No fotografíes la parte trasera de sillones o sofás. Comen
+				espacio visual y restan amplitud.</p></li>
+			<li><p>Pégate a las esquinas para alcanzar más ángulo. Si saliendo al
+				balcón ganas unos centímetros extra, ¡hazlo!</p></li>
+			<li><p>Fotografía los radiadores y/o el aire acondicionado. Puede ser
+				dentro de la foto o como detalle. Las personas que buscan casa, se
+				suelen fijar en eso.</p></li>
+			<li><p>Si el suelo es singular (parqué o hidráulico), puedes hacerle una
+				foto.</p></li>
+		</ul>
 		</br>
 		<p>
 			<strong class="letra_grande">DORMITORIO</strong>
 		</p>
 		</br>
-		<p>- Despersonaliza y vuelve a despersonalizar. Fotos, ropa, joyeros,
-			¡¡fuera de la foto!!</p>
-		</br>
-		<p>- Foto de los armarios, y si están vestidos, vacíos o muy ordenados
-			una foto del interior.</p>
-		</br>
-		<p>- Si tiene baño en suite, busca el ángulo en el que se vea que está
-			en la habitación.</p>
-		</br>
-		<p>- Estira la colcha y ahueca las almohadas.</p>
+		<ul>
+			<li><p>Despersonaliza y vuelve a despersonalizar. Fotos, ropa, joyeros,
+			¡¡fuera de la foto!!</p></li>
+			<li><p>Foto de los armarios, y si están vestidos, vacíos o muy ordenados
+				una foto del interior.</p></li>
+			<li><p>Si tiene baño en suite, busca el ángulo en el que se vea que está
+				en la habitación.</p></li>
+			<li><p>Estira la colcha y ahueca las almohadas.</p></li>
+		</ul>
 		</br>
 		<p>
 			<strong class="letra_grande">BAÑO</strong>
 		</p>
 		</br>
-		<p>- Agáchate para no salir en el espejo. El truco está en sacar la
-			foto alineándote en altura con el grifo.</p>
-		</br>
-		<p>- Vigila las líneas verticales. El baño es un lugar pequeño y
-			difícil de fotografiar.</p>
-		</br>
-		<p>- Baja la tapa del WC.</p>
-		</br>
-		<p>- Dobla las toallas y vuelve a despersonalizar. Cepillos de
-			dientes, peines, cremas… ¡¡todo fuera!!!</p>
+		<ul>
+			<li><p>Agáchate para no salir en el espejo. El truco está en sacar la
+			foto alineándote en altura con el grifo.</p></li>
+			<li><p>Vigila las líneas verticales. El baño es un lugar pequeño y
+				difícil de fotografiar.</p></li>
+			<li><p>Baja la tapa del WC.</p></li>
+			<li><p>Dobla las toallas y vuelve a despersonalizar. Cepillos de
+				dientes, peines, cremas… ¡¡todo fuera!!!</p></li>
+		</ul>
 		</br>
 		<p>
 			<strong class="letra_grande">COCINA</strong>
 		</p>
 		</br>
-		<p>- No te olvides de encender la luz de la campana.</p>
-		</br>
-		<p>- Guarda bayetas, estropajos, y que no salga el cubo de la basura.</p>
-		</br>
-		<p>- Foto del tendedero. Lo que se agradece poder tender en el
-			exterior y es el gran olvidado de los reportajes fotográficos.</p>
-		</br>
-		<p>- ¿Te he dicho que despersonalices? La nevera dice mucho de quien
-			eres, imanes, recuerdos, dibujos y notas, ¡¡fuera de la foto!!!</p>
+		<ul>
+			<li><p>No te olvides de encender la luz de la campana.</p></li>
+			<li><p>Guarda bayetas, estropajos, y que no salga el cubo de la basura.</p></li>
+			<li><p>Foto del tendedero. Lo que se agradece poder tender en el
+				exterior y es el gran olvidado de los reportajes fotográficos.</p></li>
+			<li><p>¿Te he dicho que despersonalices? La nevera dice mucho de quien
+				eres, imanes, recuerdos, dibujos y notas, ¡¡fuera de la foto!!!</p></li>
+		</ul>
 		</br>
 		<p>Dándote una vuelta por idealista, en cinco minutos se encuentran
 			algunos ejemplos de lo que no hay que hacer:</p>
@@ -387,45 +379,40 @@
 		</br>
 		<p>Algunos aspectos a tener en cuenta de la descripción:</p>
 		</br>
-		<p>- Debe ser visual. Puedes utilizar la construcción 7 / 7. Son 7
+		<ul>
+			<li><p>Debe ser visual. Puedes utilizar la construcción 7 / 7. Son 7
 			párrafos, de no más de 7 frases cada uno y en cada uno se representa
-			una idea.</p>
-		</br>
-		<p>- Siempre usar palabras sencillas.</p>
-		</br>
-		<p>- Evitar abreviaturas del tipo PMR (persona de movilidad reducida),
-			ITE (inspección técnica de edificios), CEE (certificado energético de
-			edificios), A/A (aire acondicionado), etc…</p>
-		</br>
-		<p>
-			- Todo anuncio debe destacar los beneficios que tiene. Parece una
-			obviedad, pero casi nadie lo hace. Si el piso está para reformar, no
-			empieces por ahí, el estado de la vivienda lo muestran las fotos.
-			Para eso te has pasado una tarde fotografiando tu piso, mostrando
-			todos los detalles desde todos los ángulos. Ahora tienes que hablar
-			de las bondades de tu casa. <i>“Maravilloso piso en el centro de la
-				ciudad que por su altura no recibe ruido del tráfico...” “Amplio
-				piso con salón de 40 metros…”</i> Puedes hablar de las zonas verdes
-			y de los colegios, eso les gustará a los padres con niños…
-		</p>
-		</br>
-		<p>
-			- Importante: <strong>El objetivo del anuncio es la visita, no la
-				venta.</strong> Sin visita, no hay oferta y sin oferta no hay venta.
-			Descripciones del tipo: <i>“Piso de 80 metros con dos habitaciones y
-				un cuarto de baño para actualizar.”</i>, no ayudan a la venta porque
-			no atraen la visita.
-		</p>
+			una idea.</p></li>
+			<li><p>Siempre usar palabras sencillas.</p></li>
+			<li><p>Evitar abreviaturas del tipo PMR (persona de movilidad reducida),
+				ITE (inspección técnica de edificios), CEE (certificado energético de
+				edificios), A/A (aire acondicionado), etc…</p></li>
+			<li><p>Todo anuncio debe destacar los beneficios que tiene. Parece una
+				obviedad, pero casi nadie lo hace. Si el piso está para reformar, no
+				empieces por ahí, el estado de la vivienda lo muestran las fotos.
+				Para eso te has pasado una tarde fotografiando tu piso, mostrando
+				todos los detalles desde todos los ángulos. Ahora tienes que hablar
+				de las bondades de tu casa. <i>“Maravilloso piso en el centro de la
+					ciudad que por su altura no recibe ruido del tráfico...” “Amplio
+					piso con salón de 40 metros…”</i> Puedes hablar de las zonas verdes
+				y de los colegios, eso les gustará a los padres con niños…
+			</p></li>
+			<li><p>Importante: <strong>El objetivo del anuncio es la visita, no la
+					venta.</strong> Sin visita, no hay oferta y sin oferta no hay venta.
+				Descripciones del tipo: <i>“Piso de 80 metros con dos habitaciones y
+					un cuarto de baño para actualizar.”</i>, no ayudan a la venta porque
+				no atraen la visita.
+			</p></li>
+		</ul>
 		</br>
 		<p>El texto del anuncio debe tener la siguiente estructura:</p>
 		</br>
-		<p>- Título</p>
-		</br>
-		<p>- Reclamo</p>
-		</br>
-		<p>- Descripción del inmueble</p>
-		</br>
-		<p>- Cierre</p>
+		<ul>
+			<li><p>Título</p></li>
+			<li><p>Reclamo</p></li>
+			<li><p>Descripción del inmueble</p></li>
+			<li><p>Cierre</p></li>
+		</ul>
 		</br>
 		<p>
 			<ins>1- TÍTULO: Su objetivo es llamar la atención:</ins>
@@ -499,8 +486,10 @@
 			<ins>3- DESCRIPCIÓN DEL INMUEBLE:</ins>
 		</p>
 		</br>
-		<p>- La descripción del inmueble debe de hacerse siguiendo el orden en
-			que se haría la visita.</p>
+		<ul>
+			<li><p>La descripción del inmueble debe de hacerse siguiendo el orden en
+			que se haría la visita.</p></li>
+		</ul>
 		</br>
 		<p class="centrado">
 			<i>“Piso situado en una quinta planta exterior en edificio de ocho
@@ -508,21 +497,21 @@
 				más entrar nos encontramos a mano derecha con ...”</i>
 		</p>
 		</br>
-		<p>- No dejar de mencionar los beneficios de que disponga y que muchas
+		<ul>
+			<li><p>No dejar de mencionar los beneficios de que disponga y que muchas
 			veces no se suelen mencionar: Número de ascensores (si hay más de 1),
 			cantidad de vecinos (si son muchos, dan seguridad y reducen los
 			gastos de comunidad), tendedero exterior, cuarto trastero, puerta
-			blindada, portal reformado a personas de movilidad reducida, etc…</p>
-		</br>
-		<p>- Rellenar todos los campos que te permita el portal. Esto va
-			fenomenal para el posicionamiento. Por ejemplo, el portal
-			inmobiliario Idealista te deja poner metros construidos y útiles. Pon
-			los dos y no dejes que te calcule uno a partir de otro.</p>
-		</br>
-		<p>- Por último, la descripción debe mencionar todos los servicios de
-			que dispone a su alrededor en minutos. Colegios, supermercados, zonas
-			verdes, centros de salud, transportes y otros (gimnasios, teatros,
-			polideportivos, etc…)</p>
+			blindada, portal reformado a personas de movilidad reducida, etc…</p></li>
+			<li><p>Rellenar todos los campos que te permita el portal. Esto va
+				fenomenal para el posicionamiento. Por ejemplo, el portal
+				inmobiliario Idealista te deja poner metros construidos y útiles. Pon
+				los dos y no dejes que te calcule uno a partir de otro.</p></li>
+			<li><p>Por último, la descripción debe mencionar todos los servicios de
+				que dispone a su alrededor en minutos. Colegios, supermercados, zonas
+				verdes, centros de salud, transportes y otros (gimnasios, teatros,
+				polideportivos, etc…)</p></li>
+		</ul>
 		</br>
 		<p>
 			<ins>4- CIERRE:</ins>
