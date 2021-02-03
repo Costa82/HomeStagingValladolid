@@ -42,6 +42,11 @@ $map = array(
         'action' => 'como_elaborar_un_buen_anuncio_en_los_portales_inmobiliarios',
         'privada' => false
     ),
+    'como_poner_el_precio_adecuado_a_un_piso_en_venta' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'como_poner_el_precio_adecuado_a_un_piso_en_venta',
+        'privada' => false
+    ),
     'declaracion_cookies' => array(
         'controller' => 'ControladorPaginas',
         'action' => 'declaracion_cookies',

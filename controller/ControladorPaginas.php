@@ -111,6 +111,21 @@ class ControladorPaginas
 		
 		require './views/como_elaborar_un_buen_anuncio_en_los_portales_inmobiliarios.php';
 	}
+	
+	/**
+	 * Método para cargar la página del como_poner_el_precio_adecuado_a_un_piso_en_venta
+	 */
+	public function como_poner_el_precio_adecuado_a_un_piso_en_venta()
+	{
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		
+		require './views/como_poner_el_precio_adecuado_a_un_piso_en_venta.php';
+	}
 
 	/**
 	 * Método para cargar la página de la declaración de cookies

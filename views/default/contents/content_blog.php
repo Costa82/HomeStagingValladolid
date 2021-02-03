@@ -11,6 +11,16 @@
 <div class="entradas_blog">
 
 	<div class="entrada_blog">
+		<a href='como-poner-el-precio-adecuado-a-un-piso-en-venta'><p
+				class="titulo_entrada_blog">
+				<b>¿Cómo poner el precio adecuado a un piso en venta?</b>
+			</p> <img src='./views/default/img/foto_chica_preguntandose.jpg'
+			title='¿Cómo poner el precio adecuado a un piso en venta?'
+			alt='¿Cómo poner el precio adecuado a un piso en venta?'
+			class='img_articulo_blog' /> </a>
+	</div>
+
+	<div class="entrada_blog">
 		<a href='como-elaborar-un-buen-anuncio-en-los-portales-inmobiliarios'><p
 				class="titulo_entrada_blog">
 				<b>¿Cómo elaborar un buen anuncio en los portales inmobiliarios?</b>

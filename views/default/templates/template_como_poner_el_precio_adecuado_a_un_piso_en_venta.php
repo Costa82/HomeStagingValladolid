@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="" />
 <meta name="robots" content="NOODP">
-<title>Blog Valladolid Home Staging</title>
+<title>¿Cómo poner el precio adecuado a un piso en venta?</title>
 
 <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
 <link rel="stylesheet" href="./views/default/css/all.css">
@@ -61,6 +61,32 @@
 <script type="text/javascript"
 	src="./views/default/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 	
+<script
+	src='https://www.google.com/recaptcha/api.js?render=6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3'> 
+	//6LdPFd4ZAAAAAF2swsyoEk36ow12TcHZ6q6e7FeL local
+	//6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3 producción
+</script>
+
+<script>
+	grecaptcha.ready(function() {
+	grecaptcha.execute('6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3', {action: 'newsletter'})
+	.then(function(token) {
+	var recaptchaResponse = document.getElementById('recaptchaResponse');
+	recaptchaResponse.value = token;
+	});});
+</script>
+
+<script>
+     function validar(){
+     	if (document.getElementById('condiciones').checked){
+        	return true;
+        } else {
+            alert("El formulario no puede ser enviado si no acepta el Aviso Legal y la Política de Privacidad");
+            return false;
+        }
+      }
+</script>
+	
 <!-- Metemos un aleatorio para la recarga automAtica del css y el js -->
 <script>
 
@@ -92,7 +118,7 @@
 	<!-- Formulario newsletter -->
 	<?php include_once("template_formulario_newsletter.php");?>
 	
-	<footer class="footer_blog">
+	<footer>
 	<?php include_once("template_footer.php");?>
 	</footer>
 

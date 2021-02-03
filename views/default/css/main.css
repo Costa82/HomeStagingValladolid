@@ -896,6 +896,8 @@ p.pieFoto {
 
 .explicacion_articulo ul li{list-style-type: disc;}
 
+.explicacion_articulo ul.lista_numerica li{list-style-type: decimal;}
+
 /* FOOTER
 ========================================================================= */
 footer {
