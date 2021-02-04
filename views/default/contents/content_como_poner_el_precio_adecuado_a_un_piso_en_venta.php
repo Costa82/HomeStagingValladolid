@@ -24,7 +24,7 @@
 		</br>
 
 		<p class="color_corporativo">
-			<strong>En este post vamos a ver (Índice):</strong>
+			<strong>En este post vamos a ver:</strong>
 		</p>
 		</br>
 		<ul id="ancla_titulo1" class="lista_numerica color_corporativo">
